@@ -1,6 +1,6 @@
 import { GitHubIcon } from '@/components/icons/github'
-import { LinkedInIcon } from '@/components/icons/linkedin'
-import { XIcon } from '@/components/icons/x'
+import { TistoryIcon } from '@/components/icons/tistory'
+import { InstagramIcon } from '@/components/icons/instagram'
 import { CSSIcon } from '@/components/icons/tags/css'
 import { HTMLIcon } from '@/components/icons/tags/html'
 import { JavaScriptIcon } from '@/components/icons/tags/javascript'
@@ -23,7 +23,7 @@ import { PNPMIcon } from '@/components/icons/tags/pnpm'
 import { VercelIcon } from '@/components/icons/tags/vercel'
 import { BasehubIcon } from '@/components/icons/tags/basehub'
 import { GraphQLIcon } from '@/components/icons/tags/graphql'
-import { FileTextIcon, LinkIcon, MailIcon } from 'lucide-react'
+import { FileTextIcon, BuildingIcon, MailIcon } from 'lucide-react'
 import type { IconComponent } from '@/types'
 
 export const AVATAR = {
@@ -34,22 +34,22 @@ export const AVATAR = {
 export const LINKS = [
   {
     title: 'GitHub',
-    url: 'https://github.com/emapeire',
+    url: 'https://github.com/jtothemoon',
     icon: GitHubIcon
   },
   {
-    title: 'LinkedIn',
-    url: 'https://linkedin.com/in/emanuelpeire',
-    icon: LinkedInIcon
+    title: 'Tistory',
+    url: 'https://jtothemoon.com/',
+    icon: TistoryIcon
   },
   {
-    title: 'X (Twitter)',
-    url: 'https://x.com/emapeire',
-    icon: XIcon
+    title: 'Instagram',
+    url: 'https://www.instagram.com/j_tothemoon',
+    icon: InstagramIcon
   },
   {
     title: 'Email',
-    url: 'mailto:hi@emapeire.xyz',
+    url: 'mailto:jtothemoon1987@gmail.com',
     icon: MailIcon
   },
   {
@@ -58,9 +58,9 @@ export const LINKS = [
     icon: FileTextIcon
   },
   {
-    title: 'Link App',
-    url: 'https://link.emapeire.xyz',
-    icon: LinkIcon
+    title: 'Company',
+    url: 'https://jamong.it.kr',
+    icon: BuildingIcon
   }
 ]
 

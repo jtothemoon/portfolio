@@ -19,8 +19,8 @@ import { cn } from '@/lib/utils'
 import '../styles/globals.css'
 
 const metadata: Metadata = {
-  title: 'Portfolio | Emanuel Peire',
-  description: 'My personal portfolio: showcasing my work and skills.'
+  title: '임현진 포트폴리오 | LIM HYUN JIN Portfolio',
+  description: '금융 소프트웨어 엔지니어 임현진의 포트폴리오입니다. 풀스택 개발, 웹 접근성, 성능 최적화에 집중하는 개발자입니다. Financial Software Engineer LIM HYUN JIN Portfolio.'
 }
 
 export default async function RootLayout({

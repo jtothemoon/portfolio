@@ -14,14 +14,7 @@ export function Footer() {
         <p>
           © {year}
           <span className='ms-2 me-2'>•</span>
-          <a
-            href='https://link.emapeire.xyz'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='hover:underline hover:underline-offset-4'
-          >
-            {avatar.name}
-          </a>
+          {avatar.name}
           <span className='ms-2 me-2'>—</span>
           {t('footer.copyrights')}
         </p>

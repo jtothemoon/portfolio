@@ -31,7 +31,7 @@ export function Hero() {
           asChild
         >
           <a
-            href='https://linkedin.com/in/emanuelpeire'
+            href='https://open.kakao.com/o/sThvlxSh'
             target='_blank'
             rel='noopener noreferrer'
             className='hidden md:flex'
@@ -42,7 +42,7 @@ export function Hero() {
         <Tooltip>
           <TooltipTrigger asChild>
             <a
-              href='https://linkedin.com/in/emanuelpeire'
+              href='https://open.kakao.com/o/sThvlxSh'
               target='_blank'
               rel='noopener noreferrer'
               aria-label={t('hero.available')}
