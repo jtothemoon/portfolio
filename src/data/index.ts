@@ -23,6 +23,20 @@ import { PNPMIcon } from '@/components/icons/tags/pnpm'
 import { VercelIcon } from '@/components/icons/tags/vercel'
 import { BasehubIcon } from '@/components/icons/tags/basehub'
 import { GraphQLIcon } from '@/components/icons/tags/graphql'
+import { VisualBasicIcon } from '@/components/icons/tags/visual-basic'
+import { LinuxIcon } from '@/components/icons/tags/linux'
+import { JavaIcon } from '@/components/icons/tags/java'
+import { SpringIcon } from '@/components/icons/tags/spring'
+import { PythonIcon } from '@/components/icons/tags/python'
+import { MySQLIcon } from '@/components/icons/tags/mysql'
+import { OpenCVIcon } from '@/components/icons/tags/opencv'
+import { AndroidIcon } from '@/components/icons/tags/android'
+import { FlaskIcon } from '@/components/icons/tags/flask'
+import { ElevenLabsIcon } from '@/components/icons/tags/elevenlabs'
+import { TensorFlowIcon } from '@/components/icons/tags/tensorflow'
+import { DockerIcon } from '@/components/icons/tags/docker'
+import { GitHubActionsIcon } from '@/components/icons/tags/github-actions'
+import { LangChainIcon } from '@/components/icons/tags/langchain'
 import { FileTextIcon, BuildingIcon, MailIcon } from 'lucide-react'
 import type { IconComponent } from '@/types'
 
@@ -86,5 +100,19 @@ export const iconMap: Record<string, IconComponent> = {
   PNPMIcon,
   VercelIcon,
   BasehubIcon,
-  GraphQLIcon
+  GraphQLIcon,
+  VisualBasicIcon,
+  LinuxIcon,
+  JavaIcon,
+  SpringIcon,
+  PythonIcon,
+  MySQLIcon,
+  OpenCVIcon,
+  AndroidIcon,
+  FlaskIcon,
+  ElevenLabsIcon,
+  TensorFlowIcon,
+  DockerIcon,
+  GitHubActionsIcon,
+  LangChainIcon,
 }

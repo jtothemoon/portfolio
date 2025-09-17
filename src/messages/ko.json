@@ -207,8 +207,8 @@
       {
         "title": "eGovFrame Template",
         "tags": [
-          { "name": "Java" },
-          { "name": "Spring" },
+          { "name": "Java", "icon": "JavaIcon" },
+          { "name": "Spring", "icon": "SpringIcon" },
           { "name": "Gradle" },
           { "name": "eGovFrame" }
         ],
@@ -222,7 +222,7 @@
         "title": "Haru Todo App",
         "tags": [
           { "name": "Kotlin" },
-          { "name": "Android" }
+          { "name": "Android", "icon": "AndroidIcon" }
         ],
         "description": "Kotlin Android 기반 하루 초기화 일일 TODO 애플리케이션입니다.",
         "link": {
@@ -248,9 +248,9 @@
       {
         "title": "AI Bitcoin",
         "tags": [
-          { "name": "Python" },
+          { "name": "Python", "icon": "PythonIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "Streamlit" },
+          { "name": "Streamlit"},
           { "name": "AWS" }
         ],
         "description": "OpenAI 기반 비트코인 자동 거래 시스템으로 AWS에 배포된 프로젝트입니다.",
@@ -276,8 +276,8 @@
       {
         "title": "AI Poet",
         "tags": [
-          { "name": "Python" },
-          { "name": "LangChain" },
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "LangChain", "icon": "LangChainIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" }
         ],
         "description": "AI를 활용한 시 창작 프로그램입니다.",
@@ -290,18 +290,16 @@
         "title": "Hear",
         "tags": [
           { "name": "React", "icon": "ReactIcon" },
-          { "name": "Python" },
-          { "name": "Flask" },
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "Flask", "icon": "FlaskIcon" },
           { "name": "Node.js", "icon": "NodeJSIcon" },
-          { "name": "MySQL" },
+          { "name": "MySQL", "icon": "MySQLIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "ChatGPT" },
-          { "name": "ElevenLabs" },
-          { "name": "Colab" },
-          { "name": "TensorFlow" },
-          { "name": "Docker" },
+          { "name": "ElevenLabs", "icon": "ElevenLabsIcon" },
+          { "name": "TensorFlow", "icon": "TensorFlowIcon" },
+          { "name": "Docker", "icon": "DockerIcon" },
           { "name": "Naver Cloud Platform" },
-          { "name": "GitHub Actions" }
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
         ],
         "description": "시각장애인을 위한 오디오북 웹 서비스로, 개인 맞춤형 음성 합성과 도서 요약 기능을 제공합니다.",
         "link": {
@@ -312,14 +310,14 @@
       {
         "title": "HomeWalk",
         "tags": [
-          { "name": "Spring Boot" },
+          { "name": "Spring Boot", "icon": "SpringIcon" },
           { "name": "React", "icon": "ReactIcon" },
-          { "name": "Java" },
-          { "name": "Python" },
-          { "name": "MySQL" },
-          { "name": "Flask" },
-          { "name": "OpenCV" },
-          { "name": "Android" }
+          { "name": "Java", "icon": "JavaIcon" },
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "MySQL", "icon": "MySQLIcon" },
+          { "name": "Flask", "icon": "FlaskIcon" },
+          { "name": "OpenCV", "icon": "OpenCVIcon" },
+          { "name": "Android", "icon": "AndroidIcon" }
         ],
         "description": "가족 건강 관리 및 걸음 수 추적 애플리케이션으로, 가족 간의 건강 목표 달성과 소통을 지원하는 프로젝트입니다.",
         "link": {
@@ -330,7 +328,7 @@
       {
         "title": "자바 미니 게임",
         "tags": [
-          { "name": "Java" }
+          { "name": "Java", "icon": "JavaIcon" }
         ],
         "description": "자바로 만든 간단한 인턴키우기 게임입니다.",
         "link": {
@@ -368,8 +366,8 @@
         "title": "광주은행 신 CRM 프로젝트",
         "tags": [
           { "name": "Linux" },
-          { "name": "Java" },
-          { "name": "Spring" },
+          { "name": "Java", "icon": "JavaIcon" },
+          { "name": "Spring", "icon": "SpringIcon" },
           { "name": "jQuery" },
           { "name": "Chart.js" },
           { "name": "Tera Stream" },
@@ -383,7 +381,7 @@
         "title": "광주은행 카드마케팅 프로젝트",
         "tags": [
           { "name": "Linux" },
-          { "name": "Java" },
+          { "name": "Java", "icon": "JavaIcon" },
           { "name": "OBZEN Solution" },
           { "name": "Tera Stream" },
           { "name": "Oracle" }
@@ -395,7 +393,7 @@
       {
         "title": "광주은행 여신 보고서 고도화",
         "tags": [
-          { "name": "Visual Basic" },
+          { "name": "Visual Basic", "icon": "VisualBasicIcon" },
           { "name": "BI MATRIX" },
           { "name": "Oracle" },
           { "name": "Terastream" }
