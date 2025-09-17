@@ -194,9 +194,9 @@
       {
         "title": "Harusari",
         "tags": [
-          { "name": "Flutter" },
-          { "name": "Dart" },
-          { "name": "SQLite" }
+          { "name": "Flutter", "icon": "FlutterIcon" },
+          { "name": "Dart", "icon": "DartIcon"},
+          { "name": "SQLite", "icon": "SQLiteIcon" }
         ],
         "description": "A daily task management Flutter app using the 1-3-5 productivity method to help users focus on today's tasks.",
         "link": {
@@ -209,7 +209,7 @@
         "tags": [
           { "name": "Java", "icon": "JavaIcon" },
           { "name": "Spring", "icon": "SpringIcon" },
-          { "name": "Gradle" },
+          { "name": "Gradle", "icon": "GradleIcon" },
           { "name": "eGovFrame" }
         ],
         "description": "A Korean eGovernment Framework template configured to work with IntelliJ and Gradle environment.",
@@ -221,7 +221,7 @@
       {
         "title": "Haru Todo App",
         "tags": [
-          { "name": "Kotlin" },
+          { "name": "Kotlin", "icon": "KotlinIcon" },
           { "name": "Android", "icon": "AndroidIcon" }
         ],
         "description": "A daily TODO application with daily reset functionality built with Kotlin for Android.",
@@ -250,8 +250,8 @@
         "tags": [
           { "name": "Python", "icon": "PythonIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "Streamlit" },
-          { "name": "AWS" }
+          { "name": "Streamlit", "icon": "StreamlitIcon"},
+          { "name": "AWS", "icon": "AWSIcon" }
         ],
         "description": "An OpenAI-based Bitcoin automated trading system deployed on AWS.",
         "link": {

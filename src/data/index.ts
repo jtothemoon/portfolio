@@ -37,6 +37,13 @@ import { TensorFlowIcon } from '@/components/icons/tags/tensorflow'
 import { DockerIcon } from '@/components/icons/tags/docker'
 import { GitHubActionsIcon } from '@/components/icons/tags/github-actions'
 import { LangChainIcon } from '@/components/icons/tags/langchain'
+import { StreamlitIcon } from '@/components/icons/tags/streamlit'
+import { AWSIcon } from '@/components/icons/tags/aws'
+import { KotlinIcon } from '@/components/icons/tags/kotlin'
+import { FlutterIcon } from '@/components/icons/tags/flutter'
+import { GradleIcon } from '@/components/icons/tags/gradle'
+import { DartIcon } from '@/components/icons/tags/dart'
+import { SQLiteIcon } from '@/components/icons/tags/sqlite'
 import { FileTextIcon, BuildingIcon, MailIcon } from 'lucide-react'
 import type { IconComponent } from '@/types'
 
@@ -115,4 +122,11 @@ export const iconMap: Record<string, IconComponent> = {
   DockerIcon,
   GitHubActionsIcon,
   LangChainIcon,
+  StreamlitIcon,
+  AWSIcon,
+  KotlinIcon,
+  FlutterIcon,
+  GradleIcon,
+  DartIcon,
+  SQLiteIcon,
 }
