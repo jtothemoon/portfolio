@@ -1,61 +1,61 @@
 {
   "header": {
     "about": {
-      "title": "Sobre mí",
-      "label": "sobre-mi"
+      "title": "소개",
+      "label": "소개"
     },
     "career": {
-      "title": "Carrera",
-      "label": "carrera"
+      "title": "경력",
+      "label": "경력"
     },
     "projects": {
-      "title": "Proyectos",
-      "label": "proyectos"
+      "title": "프로젝트",
+      "label": "프로젝트"
     },
     "contact": {
-      "title": "Contacto",
-      "label": "contacto"
+      "title": "연락처",
+      "label": "연락처"
     },
-    "settings": "Configuración"
+    "settings": "설정"
   },
   "hero": {
-    "available": "Disponible",
+    "available": "연락 가능",
     "about": {
-      "title": "Ingeniero de frontend, relaciones con desarrolladores y entusiasta de la investigación en IA. Siempre influenciado por el diseño. Con base en Rosario, Argentina 🇦🇷",
-      "description": "Apasionado por crear soluciones tecnológicas innovadoras que generen un impacto social. Centrado en el uso de tecnologías avanzadas de interfaz para mejorar la accesibilidad y el rendimiento en aplicaciones web. Mi objetivo principal es mejorar la experiencia del usuario, haciendo de la web un lugar mejor para todos."
+      "title": "프론트엔드 엔지니어, 개발자 관계 담당자 및 AI 연구 애호가. 항상 디자인에 영감을 받습니다. 아르헨티나 로사리오 기반 🇦🇷",
+      "description": "사회적 영향을 위한 혁신적인 기술 솔루션 만들기에 열정적입니다. 웹 애플리케이션의 접근성과 성능을 향상시키기 위해 고급 프론트엔드 기술을 사용하는 데 중점을 둡니다. 제 주요 목표는 사용자 경험을 향상시켜 모든 사람을 위한 더 나은 웹을 만드는 것입니다."
     }
   },
   "career": {
-    "title": "Carrera & Trabajos",
-    "viewMore": "Ver más",
+    "title": "경력 & 업무",
+    "viewMore": "더 보기",
     "companies": [
       {
         "company": "Frontend Lab",
         "link": "https://github.com/thefrontendlab",
-        "badges": ["Híbrido"],
+        "badges": ["하이브리드"],
         "jobs": [
           {
-            "title": "Desarrollador Frontend & Investigador Técnico",
-            "start": "Ago, 2023",
-            "end": "Presente",
+            "title": "프론트엔드 개발자 & 기술 연구원",
+            "start": "2023년 8월",
+            "end": "현재",
             "description": [
-              "Investigué e implementé nuevas tecnologías y herramientas frontend.",
-              "Desarrollé soluciones innovadoras para mejorar la comunidad frontend.",
-              "Realizé investigaciones técnicas para estar a la vanguardia de las tendencias de la industria.",
-              "Creé y mantuve proyectos de código abierto.",
-              "Colaboré con miembros del equipo para mejorar los resultados de los proyectos."
+              "새로운 프론트엔드 기술과 도구를 연구하고 구현했습니다.",
+              "프론트엔드 커뮤니티를 개선하기 위한 혁신적인 솔루션을 개발했습니다.",
+              "업계 트렌드를 앞서가기 위한 기술 연구를 수행했습니다.",
+              "오픈소스 프로젝트를 생성하고 유지 관리했습니다.",
+              "프로젝트 결과를 향상시키기 위해 팀원들과 협업했습니다."
             ]
           },
           {
-            "title": "Investigador Técnico & Desarrollador de Contenidos",
-            "start": "Jul, 2021",
-            "end": "Ago, 2023",
+            "title": "기술 연구원 & 콘텐츠 개발자",
+            "start": "2021년 7월",
+            "end": "2023년 8월",
             "description": [
-              "Creé contenido técnico para educar y atraer a la comunidad frontend.",
-              "Desarrollé tutoriales y guías sobre las últimas tecnologías frontend.",
-              "Gestioné la estrategia de contenido para alinearla con las necesidades y tendencias de la comunidad.",
-              "Colaboré con expertos para producir contenido informativo de alta calidad.",
-              "Utilizé varias plataformas para distribuir contenido y maximizar el alcance."
+              "프론트엔드 커뮤니티를 교육하고 참여시키기 위한 기술 콘텐츠를 제작했습니다.",
+              "최신 프론트엔드 기술에 대한 튜토리얼과 가이드를 개발했습니다.",
+              "커뮤니티 요구사항과 트렌드에 맞는 콘텐츠 전략을 관리했습니다.",
+              "고품질의 유익한 콘텐츠를 제작하기 위해 전문가들과 협업했습니다.",
+              "다양한 플랫폼을 활용하여 콘텐츠를 배포하고 도달 범위를 극대화했습니다."
             ]
           }
         ]
@@ -63,18 +63,18 @@
       {
         "company": "Next.js Argentina",
         "link": "https://github.com/nextjsargentina",
-        "badges": ["Híbrido"],
+        "badges": ["하이브리드"],
         "jobs": [
           {
-            "title": "Arquitecto de Experiencia del Desarrollador",
-            "start": "Ago, 2023",
-            "end": "Presente",
+            "title": "개발자 경험 설계자",
+            "start": "2023년 8월",
+            "end": "현재",
             "description": [
-              "Construí y fomenté una comunidad abierta sin fines de lucro para entusiastas de Next.js.",
-              "Desarrollé recursos para mejorar la experiencia del desarrollador con Next.js.",
-              "Organizé eventos y talleres comunitarios.",
-              "Proporcioné mentoría y apoyo a los miembros de la comunidad.",
-              "Colaboré con otros líderes comunitarios para expandir el alcance de la comunidad."
+              "Next.js 애호가들을 위한 비영리 오픈 커뮤니티를 구축하고 육성했습니다.",
+              "Next.js를 통한 개발자 경험을 향상시키기 위한 리소스를 개발했습니다.",
+              "커뮤니티 이벤트와 워크샵을 조직했습니다.",
+              "커뮤니티 구성원들에게 멘토링과 지원을 제공했습니다.",
+              "다른 커뮤니티 리더들과 협업하여 커뮤니티 도달 범위를 확장했습니다."
             ]
           }
         ]
@@ -82,18 +82,18 @@
       {
         "company": "Estudio Cabeza",
         "link": "https://estudiocabeza.com",
-        "badges": ["Remoto"],
+        "badges": ["원격"],
         "jobs": [
           {
-            "title": "Especialista en DevOps e Infraestructura",
-            "start": "Jul, 2024",
-            "end": "Ago, 2024",
+            "title": "DevOps & 인프라 전문가",
+            "start": "2024년 7월",
+            "end": "2024년 8월",
             "description": [
-              "Migré de WordPress a Webflow, mejorando el rendimiento.",
-              "Configuré Cloudflare para SSL y DNS.",
-              "Optimicé despliegues para reducir inactividad.",
-              "Automatizé flujos de trabajo para mayor eficiencia.",
-              "Alineé infraestructura con necesidades del negocio."
+              "WordPress에서 Webflow로 마이그레이션하여 성능을 향상시켰습니다.",
+              "SSL과 DNS를 위한 Cloudflare를 구성했습니다.",
+              "다운타임을 최소화하기 위해 배포를 간소화했습니다.",
+              "효율성을 위한 워크플로를 자동화했습니다.",
+              "비즈니스 요구사항에 맞춰 인프라를 조정했습니다."
             ]
           }
         ]
@@ -101,18 +101,18 @@
       {
         "company": "Invisible Technologies",
         "link": "https://invisible.co",
-        "badges": ["Remoto"],
+        "badges": ["원격"],
         "jobs": [
           {
-            "title": "Operador & Entrenador de IA Avanzada",
-            "start": "May, 2024",
-            "end": "Ago, 2024",
+            "title": "운영자 & 고급 AI 트레이너",
+            "start": "2024년 5월",
+            "end": "2024년 8월",
             "description": [
-              "Gestioné las operaciones del sistema de IA para asegurar un rendimiento óptimo.",
-              "Entrené modelos de IA avanzados para mejorar la precisión del sistema.",
-              "Colaboré con equipos multifuncionales para desarrollar soluciones de IA.",
-              "Analizé datos para mejorar las metodologías de entrenamiento de IA.",
-              "Implementé retroalimentación para refinar continuamente los modelos de IA."
+              "최적의 성능을 보장하기 위해 AI 시스템 운영을 관리했습니다.",
+              "시스템 정확도를 향상시키기 위해 고급 AI 모델을 훈련시켰습니다.",
+              "AI 솔루션을 개발하기 위해 교차 기능 팀과 협업했습니다.",
+              "AI 훈련 방법론을 향상시키기 위해 데이터를 분석했습니다.",
+              "AI 모델을 지속적으로 개선하기 위해 피드백을 구현했습니다."
             ]
           }
         ]
@@ -120,18 +120,18 @@
       {
         "company": "BaseHub",
         "link": "https://basehub.com",
-        "badges": ["Remoto"],
+        "badges": ["원격"],
         "jobs": [
           {
-            "title": "Relaciones con Desarrolladores",
-            "start": "Mar, 2024",
-            "end": "Ago, 2024",
+            "title": "개발자 관계",
+            "start": "2024년 3월",
+            "end": "2024년 8월",
             "description": [
-              "Asistí a los desarrolladores en la creación de aplicaciones utilizando BaseHub CMS e IA nativa.",
-              "Proporcioné soporte técnico y orientación a los desarrolladores.",
-              "Creé documentación y tutoriales para una mejor comprensión del producto.",
-              "Organizé y conduje seminarios web y talleres.",
-              "Interactué con la comunidad de desarrolladores para recopilar retroalimentación y mejorar el producto."
+              "BaseHub CMS와 네이티브 AI를 사용하여 애플리케이션을 구축하는 개발자들을 지원했습니다.",
+              "개발자들에게 기술 지원과 가이드를 제공했습니다.",
+              "제품 이해도 향상을 위한 문서와 튜토리얼을 제작했습니다.",
+              "웨비나와 워크샵을 조직하고 진행했습니다.",
+              "개발자 커뮤니티와 소통하여 피드백을 수집하고 제품을 개선했습니다."
             ]
           }
         ]
@@ -139,18 +139,18 @@
       {
         "company": "Smat.io",
         "link": "https://smat.io",
-        "badges": ["Remoto"],
+        "badges": ["원격"],
         "jobs": [
           {
-            "title": "Tester de QA & Desarrollador Frontend",
-            "start": "Ago, 2022",
-            "end": "Ago, 2023",
+            "title": "QA 테스터 & 프론트엔드 개발자",
+            "start": "2022년 8월",
+            "end": "2023년 8월",
             "description": [
-              "Lideré pruebas de QA utilizando Jest y Playwright para garantizar la calidad de las aplicaciones web.",
-              "Implementé prácticas de Desarrollo Orientado por Pruebas (TDD).",
-              "Desarrollé interfaces de usuario amigables con React.js.",
-              "Colaboré con desarrolladores para optimizar la calidad del código.",
-              "Realizé seguimiento de errores y resolución de problemas."
+              "웹 애플리케이션의 품질을 보장하기 위해 Jest와 Playwright를 사용한 QA 테스팅을 주도했습니다.",
+              "테스트 주도 개발(TDD) 관행을 구현했습니다.",
+              "React.js로 사용자 친화적인 인터페이스를 개발했습니다.",
+              "코드 품질을 최적화하기 위해 개발자들과 협업했습니다.",
+              "버그 추적과 문제 해결을 수행했습니다."
             ]
           }
         ]
@@ -158,48 +158,48 @@
       {
         "company": "Maker DAO",
         "link": "https://makerdao.com",
-        "badges": ["Remoto"],
+        "badges": ["원격"],
         "jobs": [
           {
-            "title": "Redactor Técnico y Traductor",
-            "start": "Feb, 2022",
-            "end": "Ago, 2022",
+            "title": "기술 작가 및 번역가",
+            "start": "2022년 2월",
+            "end": "2022년 8월",
             "description": [
-              "Redacté documentación técnica, incluyendo libros blancos, guías y tutoriales.",
-              "Traduje contenido técnico complejo para audiencias diversas.",
-              "Facilité la comprensión del usuario sobre conceptos de blockchain y DeFi.",
-              "Colaboré con expertos en la materia para asegurar la precisión.",
-              "Mantuve y actualizé la documentación según fuera necesario."
+              "백서, 가이드, 튜토리얼을 포함한 기술 문서를 작성했습니다.",
+              "다양한 대상을 위해 복잡한 기술 콘텐츠를 번역했습니다.",
+              "블록체인과 DeFi 개념에 대한 사용자 이해를 촉진했습니다.",
+              "정확성을 보장하기 위해 주제 전문가들과 협업했습니다.",
+              "필요에 따라 문서를 유지 관리하고 업데이트했습니다."
             ]
           }
         ]
       },
       {
         "company": "El Chaperón",
-        "badges": ["Presencial"],
+        "badges": ["현장 근무"],
         "jobs": [
           {
-            "title": "Diseñador Web & Community Manager",
-            "start": "Ene, 2019",
-            "end": "Dic, 2021",
+            "title": "웹 디자이너 & 커뮤니티 관리자",
+            "start": "2019년 1월",
+            "end": "2021년 12월",
             "description": [
-              "Desarrollé y diseñé sitios web responsivos utilizando WordPress.",
-              "Gestioné servicios turísticos en línea para la ciudad de Rosario.",
-              "Coordiné con la Asociación Hotelera de Rosario y la Entidad de Turismo (ETUR).",
-              "Creé contenido atractivo para el alcance comunitario.",
-              "Implementé estrategias de SEO para mejorar la visibilidad del sitio web."
+              "WordPress를 사용하여 반응형 웹사이트를 개발하고 디자인했습니다.",
+              "로사리오 시의 온라인 관광 서비스를 관리했습니다.",
+              "로사리오 호텔 협회와 관광 단체(ETUR)와 협력했습니다.",
+              "커뮤니티 아웃리치를 위한 매력적인 콘텐츠를 제작했습니다.",
+              "웹사이트 가시성을 향상시키기 위한 SEO 전략을 구현했습니다."
             ]
           },
           {
-            "title": "Asesor Comercial",
-            "start": "Ene, 2016",
-            "end": "Dic, 2018",
+            "title": "상업 고문",
+            "start": "2016년 1월",
+            "end": "2018년 12월",
             "description": [
-              "Mantuve la base de datos de clientes para asegurar la precisión.",
-              "Ejecuté estrategias de marketing para atraer clientes.",
-              "Gestioné servicios y aseguré la satisfacción del cliente.",
-              "Diseñé e implementé campañas promocionales con el equipo de marketing.",
-              "Analizé retroalimentación y tendencias para mejorar servicios y marketing."
+              "정확성을 위해 고객 데이터베이스를 유지 관리했습니다.",
+              "고객을 유치하기 위한 마케팅 전략을 실행했습니다.",
+              "서비스를 관리하고 고객 만족을 보장했습니다.",
+              "마케팅 팀과 함께 프로모션 캠페인을 설계하고 구현했습니다.",
+              "서비스와 마케팅을 개선하기 위해 피드백과 트렌드를 분석했습니다."
             ]
           }
         ]
@@ -207,13 +207,13 @@
     ]
   },
   "projects": {
-    "title": "Proyectos & Trabajos",
-    "not-found": "No se encontraron proyectos",
-    "preview": "Vista previa",
+    "title": "프로젝트 & 작품",
+    "not-found": "프로젝트를 찾을 수 없습니다",
+    "preview": "미리보기",
     "github": "GitHub",
     "items": [
       {
-        "title": "BaseHub - Blog de Next.js",
+        "title": "BaseHub - Next.js 블로그",
         "tags": [
           { "name": "BaseHub", "icon": "BasehubIcon" },
           { "name": "CSS", "icon": "CSSIcon" },
@@ -224,7 +224,7 @@
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
           { "name": "Vercel", "icon": "VercelIcon" }
         ],
-        "description": "Una plantilla de guía inicial para blog hecha con Next.js y BaseHub CMS. Utiliza la API de BaseHub para obtener y mostrar publicaciones.",
+        "description": "Next.js와 BaseHub CMS로 만든 시작 가이드 템플릿 블로그입니다. BaseHub API를 사용하여 게시물을 가져오고 표시합니다.",
         "link": {
           "github": "https://github.com/basehub-ai/nextjs-blog",
           "preview": "https://nextjs-blog-basehub.vercel.app"
@@ -232,7 +232,7 @@
         "image": "/projects/images/basehub-nextjs-blog.png"
       },
       {
-        "title": "Desafío Basement",
+        "title": "Basement Challenge",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -241,7 +241,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Desafío del stream de Basement studio.",
+        "description": "Basement studio 스트림 챌린지.",
         "link": {
           "github": "https://github.com/emapeire/basement-challenge",
           "preview": "https://emapeire-basement-challenge.vercel.app"
@@ -249,7 +249,7 @@
         "image": "/projects/images/basement-challenge.png"
       },
       {
-        "title": "Chat con Vader",
+        "title": "Chat With Vader",
         "tags": [
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -258,26 +258,26 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Una aplicación de chat simple que usa la API de OpenAI y Vercel AI SDK para chatear con Darth Vader.",
+        "description": "OpenAI API와 Vercel AI SDK를 사용하여 다스 베이더와 채팅할 수 있는 간단한 채팅 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/chat-with-vader"
         },
         "image": "/projects/images/chat-with-vader.png"
       },
       {
-        "title": "Chat Cohere",
+        "title": "Cohere Chat",
         "tags": [
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "Node.js", "icon": "NodeJSIcon" }
         ],
-        "description": "Un chatbot que usa la API de Cohere para generar respuestas a la entrada del usuario.",
+        "description": "Cohere API를 사용하여 사용자 입력에 대한 응답을 생성하는 챗봇입니다.",
         "link": {
           "github": "https://github.com/emapeire/cohere-chat"
         },
         "image": "/projects/images/cohere-chat.png"
       },
       {
-        "title": "App de Comentarios",
+        "title": "Comments App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -286,14 +286,14 @@
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación de comentarios simple hecha con React y Vite.",
+        "description": "React와 Vite로 만든 간단한 댓글 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/comments-react-query"
         },
         "image": "/projects/images/comments-app.png"
       },
       {
-        "title": "App CRUD",
+        "title": "Crud App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -303,7 +303,7 @@
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación CRUD simple hecha con React y Vite.",
+        "description": "React와 Vite로 만든 간단한 CRUD 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/crud-react-redux",
           "preview": "https://emapeire-crud-react-redux.netlify.app"
@@ -311,7 +311,7 @@
         "image": "/projects/images/crud-app.png"
       },
       {
-        "title": "Chat JavaScript Elocuente",
+        "title": "Eloquent JavaScript Chat",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
@@ -320,14 +320,14 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "En esta aplicación podrás interactuar con una llama inteligente que responderá tus preguntas sobre JavaScript.",
+        "description": "이 앱에서는 JavaScript에 대한 질문에 답변해주는 지능적인 라마와 상호작용할 수 있습니다.",
         "link": {
           "github": "https://github.com/emapeire/eloquent-js-chat"
         },
         "image": "/projects/images/eloquent-js-chat.png"
       },
       {
-        "title": "Interfaz Google Translate",
+        "title": "Google Translate UI",
         "tags": [
           { "name": "Bootstrap", "icon": "BootstrapIcon" },
           { "name": "CSS", "icon": "CSSIcon" },
@@ -339,14 +339,14 @@
           { "name": "Vite", "icon": "ViteIcon" },
           { "name": "Vitest", "icon": "VitestIcon" }
         ],
-        "description": "Esta es una API simple que usa el modelo GPT-4-vision-preview de OpenAI para generar código a partir de imágenes.",
+        "description": "OpenAI GPT-4-vision-preview 모델을 사용하여 이미지에서 코드를 생성하는 간단한 API입니다.",
         "link": {
           "github": "https://github.com/emapeire/google-translate-clone"
         },
         "image": "/projects/images/google-translate-clone.png"
       },
       {
-        "title": "Imagen a Código",
+        "title": "Image 2 Code",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
@@ -355,14 +355,14 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Esta es una herramienta que convierte imágenes en código. Usa IA para generar código a partir de imágenes. Está basada en el modelo GPT-4-vision-preview.",
+        "description": "이미지를 코드로 변환하는 도구입니다. AI를 사용하여 이미지에서 코드를 생성합니다. GPT-4-vision-preview 모델을 기반으로 합니다.",
         "link": {
           "github": "https://github.com/emapeire/image-to-code"
         },
         "video": "/projects/videos/image-2-code.webm"
       },
       {
-        "title": "Quiz de JavaScript",
+        "title": "JavaScript Quiz",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -371,7 +371,7 @@
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación de quiz simple hecha con React y Zustand.",
+        "description": "React와 Zustand로 만든 간단한 퀴즈 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/javascript-quiz",
           "preview": "https://emapeire-javascript-quiz.netlify.app"
@@ -379,7 +379,7 @@
         "image": "/projects/images/javascript-quiz.png"
       },
       {
-        "title": "Desafío Mercado Libre",
+        "title": "Mercado Libre Challenge",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -388,7 +388,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Desafío para crear una aplicación de búsqueda de productos usando la API de Mercado Libre. Construida con Next.js y TypeScript.",
+        "description": "Mercado Libre API를 사용하여 제품 검색 앱을 만드는 챌린지입니다. Next.js와 TypeScript로 구축되었습니다.",
         "link": {
           "github": "https://github.com/emapeire/meli-challenge",
           "preview": "https://emapeire-meli-challenge.vercel.app"
@@ -396,7 +396,7 @@
         "image": "/projects/images/meli-challenge.png"
       },
       {
-        "title": "Seguidor del Mouse",
+        "title": "Mouse Follower",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -404,7 +404,7 @@
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación simple que sigue el mouse hecha con React y Vite.",
+        "description": "React와 Vite로 만든 간단한 마우스 팔로워 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/mouse-follower",
           "preview": "https://emapeire-mouse-follower.netlify.app"
@@ -412,7 +412,7 @@
         "video": "/projects/videos/mouse-follower.webm"
       },
       {
-        "title": "Personajes de Morty",
+        "title": "Morty's characters",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "GraphQL", "icon": "GraphQLIcon" },
@@ -421,7 +421,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Una aplicación simple que lista todos los personajes de Morty. Construida con Next.js y GraphQL.",
+        "description": "모든 Morty의 캐릭터를 나열하는 간단한 앱입니다. Next.js와 GraphQL로 구축되었습니다.",
         "link": {
           "github": "https://github.com/emapeire/nextjs-graphql",
           "preview": "https://emapeire-nextjs-graphql.vercel.app"
@@ -429,7 +429,7 @@
         "image": "/projects/images/morty-s-characters.png"
       },
       {
-        "title": "Buscador de Películas",
+        "title": "Movie Search App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -437,7 +437,7 @@
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación simple para buscar películas hecha con React y Vite.",
+        "description": "React와 Vite로 만든 간단한 영화 검색 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/react-movie-search",
           "preview": "https://emapeire-react-movie-search.netlify.app"
@@ -445,7 +445,7 @@
         "image": "/projects/images/movie-search.png"
       },
       {
-        "title": "App de Chat Next.js",
+        "title": "Next.js Chat App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -457,14 +457,14 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "NextJS-Chat ofrece a los principiantes una interfaz basada en chat para aprender Next.js y mejores prácticas de codificación a través de un experto en IA.",
+        "description": "NextJS-Chat는 초보자들이 AI 전문가를 통해 Next.js와 최고의 코딩 관행을 배울 수 있는 채팅 기반 인터페이스를 제공합니다.",
         "link": {
           "github": "https://github.com/nextjsargentina/next.js-chat"
         },
         "video": "/projects/videos/nextjs-chat.webm"
       },
       {
-        "title": "App de Versiones Next.js",
+        "title": "Next.js Releases App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -476,7 +476,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "NextJS Releases es una aplicación que rastrea nuevas versiones en el repositorio de GitHub de NextJS.",
+        "description": "NextJS Releases는 NextJS의 GitHub 저장소에서 새로운 릴리스를 추적하는 앱입니다.",
         "link": {
           "github": "https://github.com/nextjsargentina/next.js-releases",
           "preview": "https://nextjs-releases.vercel.app"
@@ -489,27 +489,27 @@
           { "name": "OpenAI", "icon": "OpenAIIcon" },
           { "name": "React", "icon": "ReactIcon" }
         ],
-        "description": "Un experto en ingeniería web impulsado por IA para la comunidad de React.",
+        "description": "React 커뮤니티를 위한 AI 기반 웹 엔지니어링 전문가입니다.",
         "link": {
           "preview": "https://chat.openai.com/g/g-HNcbE0A5n-reactgpt"
         },
         "image": "/projects/images/react-gpt.png"
       },
       {
-        "title": "Grabador de Pantalla",
+        "title": "Screen Recorder",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
           { "name": "JavaScript", "icon": "JavaScriptIcon" }
         ],
-        "description": "Grabador de pantalla nativo hecho con la API web MediaRecorder",
+        "description": "MediaRecorder 웹 API로 만든 네이티브 화면 녹화기",
         "link": {
           "github": "https://github.com/emapeire/screen-recorder"
         },
         "video": "/projects/videos/screen-recorder.webm"
       },
       {
-        "title": "Carrito de Compras",
+        "title": "Shopping Cart",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -517,7 +517,7 @@
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación simple de carrito de compras hecha con React y Vite.",
+        "description": "React와 Vite로 만든 간단한 쇼핑 카트 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/shopping-cart",
           "preview": "https://emapeire-shopping-cart.netlify.app"
@@ -525,13 +525,13 @@
         "image": "/projects/images/shopping-cart.png"
       },
       {
-        "title": "Lanzamientos de SpaceX",
+        "title": "Space X Launches",
         "tags": [
           { "name": "Astro", "icon": "AstroIcon" },
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Una aplicación simple que lista todos los lanzamientos de SpaceX. Construida con Astro y TypeScript.",
+        "description": "모든 SpaceX 발사를 나열하는 간단한 앱입니다. Astro와 TypeScript로 구축되었습니다.",
         "link": {
           "github": "https://github.com/emapeire/spacex-launches",
           "preview": "https://emapeire-spacex-launches.vercel.app"
@@ -539,7 +539,7 @@
         "image": "/projects/images/spacex-launches.png"
       },
       {
-        "title": "Interfaz Spotify",
+        "title": "Spotify UI",
         "tags": [
           { "name": "Astro", "icon": "AstroIcon" },
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
@@ -548,7 +548,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Un clon de Spotify de código abierto construido con Svelte y Astro.",
+        "description": "Svelte와 Astro로 구축된 오픈소스 Spotify 클론입니다.",
         "link": {
           "github": "https://github.com/emapeire/spotify-clone",
           "preview": "https://emapeire-spotify-clone.vercel.app"
@@ -565,7 +565,7 @@
           { "name": "SWC", "icon": "SWCIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Aplicaciones de página única (SPA) simples con facilidad usando swc-router. Esta solución de enrutamiento liviana para aplicaciones React aprovecha la velocidad de SWC.",
+        "description": "swc-router를 사용하여 간단한 단일 페이지 애플리케이션(SPA)을 쉽게 만들 수 있습니다. 이 경량 라우팅 솔루션은 React 애플리케이션을 위해 SWC의 속도를 활용합니다.",
         "link": {
           "github": "https://github.com/emapeire/swc-router",
           "preview": "https://npmjs.com/package/swc-router"
@@ -573,12 +573,12 @@
         "image": "/projects/images/swc-router.png"
       },
       {
-        "title": "API View Transitions",
+        "title": "View Transitions API",
         "tags": [
           { "name": "Astro", "icon": "AstroIcon" },
           { "name": "JavaScript", "icon": "JavaScriptIcon" }
         ],
-        "description": "Este es un proyecto de muestra que demuestra cómo usar la API View Transitions con Astro.",
+        "description": "Astro와 함께 View Transitions API를 사용하는 방법을 보여주는 샘플 프로젝트입니다.",
         "link": {
           "github": "https://github.com/emapeire/view-transitions-api",
           "preview": "https://emapeire-view-transitions-api.vercel.app"
@@ -586,13 +586,13 @@
         "video": "/projects/videos/view-transitions-api.webm"
       },
       {
-        "title": "Interfaz Landing Tesla",
+        "title": "Tesla Landing UI",
         "tags": [
           { "name": "Astro", "icon": "AstroIcon" },
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" }
         ],
-        "description": "Una página de aterrizaje de Tesla de código abierto construida con Astro y Tailwind CSS.",
+        "description": "Astro와 Tailwind CSS로 구축된 오픈소스 Tesla 랜딩 페이지입니다.",
         "link": {
           "github": "https://github.com/emapeire/tesla-landing",
           "preview": "https://emapeire-tesla-landing.vercel.app"
@@ -600,7 +600,7 @@
         "video": "/projects/videos/tesla-landing-clone.webm"
       },
       {
-        "title": "Tres en Raya",
+        "title": "Tic Tac Toe",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -608,7 +608,7 @@
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Un juego simple de tres en raya hecho con React y TypeScript.",
+        "description": "React와 TypeScript로 만든 간단한 틱택토 게임입니다.",
         "link": {
           "github": "https://github.com/emapeire/tic-tac-toe",
           "preview": "https://emapeire-tic-tac-toe.netlify.app"
@@ -616,7 +616,7 @@
         "image": "/projects/images/tic-tac-toe.png"
       },
       {
-        "title": "App de Tareas",
+        "title": "Todo App",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -625,7 +625,7 @@
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una aplicación simple de tareas hecha con React y TypeScript.",
+        "description": "React와 TypeScript로 만든 간단한 할 일 앱입니다.",
         "link": {
           "github": "https://github.com/emapeire/todo-app-ts",
           "preview": "https://emapeire-todo-ts.netlify.app"
@@ -633,7 +633,7 @@
         "image": "/projects/images/todo-app-ts.png"
       },
       {
-        "title": "Tarjeta de Seguir Twitter",
+        "title": "Twitter Follow Card UI",
         "tags": [
           { "name": "CSS", "icon": "CSSIcon" },
           { "name": "HTML", "icon": "HTMLIcon" },
@@ -641,7 +641,7 @@
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "Una tarjeta de seguir de Twitter de código abierto construida con React y Vite.",
+        "description": "React와 Vite로 구축된 오픈소스 Twitter 팔로우 카드입니다.",
         "link": {
           "github": "https://github.com/emapeire/twitter-follow-card",
           "preview": "https://emapeire-twitter-follow-card.netlify.app"
@@ -649,7 +649,7 @@
         "image": "/projects/images/twitter-follow-card.png"
       },
       {
-        "title": "Interfaz Twitter",
+        "title": "Twitter UI",
         "tags": [
           { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -658,7 +658,7 @@
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" }
         ],
-        "description": "Un clon de Twitter de código abierto construido con Next.js y Supabase.",
+        "description": "Next.js와 Supabase로 구축된 오픈소스 Twitter 클론입니다.",
         "link": {
           "github": "https://github.com/emapeire/twitter-clone"
         },
@@ -667,78 +667,78 @@
     ]
   },
   "contact": {
-    "title": "Contáctame",
-    "description": "No dudes en ponerte en contacto conmigo para preguntas, consultas o colaboraciones. Estoy abierto a nuevas oportunidades y desafíos.",
+    "title": "연락하기",
+    "description": "질문, 문의 또는 협업을 위해 언제든지 연락해 주세요. 새로운 기회와 도전에 열려 있습니다.",
     "form": {
-      "message-watch": "El mensaje no debe contener URLs",
+      "message-watch": "메시지에는 URL이 포함되어서는 안 됩니다",
       "on-submit": {
-        "title": "Spam detectado",
-        "description": "Por favor, completa el formulario correctamente y sin spam. ¡Gracias!"
+        "title": "스팸이 감지되었습니다",
+        "description": "스팸 없이 양식을 올바르게 작성해 주세요. 감사합니다!"
       },
       "ok": {
-        "title": "Correo enviado",
-        "description": "¡Me pondré en contacto contigo lo antes posible!"
+        "title": "이메일이 전송되었습니다",
+        "description": "가능한 한 빨리 답변드리겠습니다!"
       },
       "error": {
-        "title": "Error",
-        "description": "Hubo un error al enviar el correo. Por favor, inténtalo de nuevo más tarde."
+        "title": "오류",
+        "description": "이메일 전송 중 오류가 발생했습니다. 나중에 다시 시도해 주세요."
       },
-      "card-description": "Por favor, completa el formulario a continuación y me pondré en contacto contigo lo antes posible.",
-      "first-name": "Nombre",
-      "first-name-placeholder": "Tu nombre",
-      "last-name": "Apellido",
-      "last-name-placeholder": "Tu apellido",
-      "email-placeholder": "Tu dirección de correo electrónico",
-      "message": "Mensaje",
-      "message-placeholder": "Escribe tu mensaje aquí...",
-      "submit": "Enviar",
+      "card-description": "아래 양식을 작성해 주시면 가능한 한 빨리 답변드리겠습니다.",
+      "first-name": "이름",
+      "first-name-placeholder": "당신의 이름",
+      "last-name": "성",
+      "last-name-placeholder": "당신의 성",
+      "email-placeholder": "당신의 이메일 주소",
+      "message": "메시지",
+      "message-placeholder": "여기에 메시지를 입력하세요...",
+      "submit": "제출",
       "validation": {
         "first-name": {
-          "min": "El nombre debe tener al menos 2 caracteres.",
-          "max": "El nombre debe tener menos de 50 caracteres.",
-          "regex": "El nombre debe contener solo letras."
+          "min": "이름은 최소 2자 이상이어야 합니다.",
+          "max": "이름은 50자 미만이어야 합니다.",
+          "regex": "이름은 문자만 포함해야 합니다."
         },
         "last-name": {
-          "min": "El apellido debe tener al menos 2 caracteres.",
-          "max": "El apellido debe tener menos de 50 caracteres.",
-          "regex": "El apellido debe contener solo letras."
+          "min": "성은 최소 2자 이상이어야 합니다.",
+          "max": "성은 50자 미만이어야 합니다.",
+          "regex": "성은 문자만 포함해야 합니다."
         },
         "email": {
-          "email": "El correo electrónico debe ser una dirección válida.",
-          "min": "El correo electrónico debe tener al menos 5 caracteres.",
-          "max": "El correo electrónico debe tener menos de 100 caracteres."
+          "email": "이메일은 유효한 이메일 주소여야 합니다.",
+          "min": "이메일은 최소 5자 이상이어야 합니다.",
+          "max": "이메일은 100자 미만이어야 합니다."
         },
         "message": {
-          "min": "El mensaje debe tener al menos 10 caracteres.",
-          "max": "El mensaje debe tener menos de 500 caracteres.",
-          "refine": "El mensaje no debe contener URLs."
+          "min": "메시지는 최소 10자 이상이어야 합니다.",
+          "max": "메시지는 500자 미만이어야 합니다.",
+          "refine": "메시지에는 URL이 포함되어서는 안 됩니다."
         }
       }
     }
   },
   "pagination": {
-    "next": "Siguiente",
-    "previous": "Anterior"
+    "next": "다음",
+    "previous": "이전"
   },
   "footer": {
-    "copyrights": "Todos los derechos reservados."
+    "copyrights": "모든 권리 보유."
   },
   "lang-switcher": {
-    "label": "Idioma",
+    "label": "언어",
     "options": {
-      "en": "Inglés",
-      "es": "Español"
+      "ko": "한국어",
+      "en": "영어"
     }
   },
   "mode-toggle": {
-    "light": "Claro",
-    "dark": "Oscuro",
-    "system": "Sistema",
-    "label": "Tema"
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템",
+    "label": "테마"
   },
   "not-found": {
     "title": "404",
-    "description": "Felicitaciones! Encontraste una página que no existe. 🎉",
-    "button": "Volver al inicio"
+    "description": "축하합니다! 존재하지 않는 페이지를 찾으셨습니다. 🎉",
+    "button": "홈으로 돌아가기"
   }
 }
