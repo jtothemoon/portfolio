@@ -64,9 +64,9 @@ export function Hero() {
         </Tooltip>
       </div>
 
-      <div className='flex flex-col font-mono gap-4 dark:text-neutral-200 text-neutral-800 text-pretty'>
-        <h2>{t('hero.about.title')}</h2>
-        <h3>{t('hero.about.description')}</h3>
+      <div className='flex flex-col font-sans gap-4 dark:text-neutral-200 text-neutral-800 text-pretty font-medium'>
+        <h2 className='font-semibold'>{t('hero.about.title')}</h2>
+        <h3 className='font-normal leading-relaxed'>{t('hero.about.description')}</h3>
       </div>
 
       <nav className='flex gap-x-4 pt-4'>
