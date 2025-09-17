@@ -35,7 +35,7 @@
         "badges": ["Hybrid"],
         "jobs": [
           {
-            "title": "Financial Software Engineer",
+            "title": "Software Engineer",
             "start": "May, 2025",
             "end": "Present",
             "description": [
@@ -143,7 +143,268 @@
     "not-found": "No projects found",
     "preview": "Preview",
     "github": "GitHub",
-    "items": []
+    "items": [
+      {
+        "title": "Jamong Communications Website Development",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" }
+        ],
+        "description": "Developed Jamong Communications' official website using Next.js and modern web technologies.",
+        "link": {
+          "preview": "https://jamong.it.kr"
+        },
+        "image": "/projects/images/jamong-website.png"
+      },
+      {
+        "title": "Fullpage Scroll Template",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Embla Carousel" },
+          { "name": "Lenis" }
+        ],
+        "description": "A full-page scroll portfolio template that works like fullpage.js, providing smooth scroll experience using Embla Carousel and Lenis.",
+        "link": {
+          "github": "https://github.com/jtothemoon/fullpage-scroll-template"
+        },
+        "image": ""
+      },
+      {
+        "title": "Simple Clova Chatbot",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Naver Clova" }
+        ],
+        "description": "A Naver Clova Studio-based chatbot system developed for student mentoring at the Honam LLM Hackathon Competition.",
+        "link": {
+          "github": "https://github.com/jtothemoon/simple-clova-chatbot"
+        },
+        "image": ""
+      },
+      {
+        "title": "Harusari",
+        "tags": [
+          { "name": "Flutter" },
+          { "name": "Dart" },
+          { "name": "SQLite" }
+        ],
+        "description": "A daily task management Flutter app using the 1-3-5 productivity method to help users focus on today's tasks.",
+        "link": {
+          "github": "https://github.com/jtothemoon/harusari"
+        },
+        "image": ""
+      },
+      {
+        "title": "eGovFrame Template",
+        "tags": [
+          { "name": "Java" },
+          { "name": "Spring" },
+          { "name": "Gradle" },
+          { "name": "eGovFrame" }
+        ],
+        "description": "A Korean eGovernment Framework template configured to work with IntelliJ and Gradle environment.",
+        "link": {
+          "github": "https://github.com/jtothemoon/egovframe-template-simple-backend"
+        },
+        "image": ""
+      },
+      {
+        "title": "Haru Todo App",
+        "tags": [
+          { "name": "Kotlin" },
+          { "name": "Android" }
+        ],
+        "description": "A daily TODO application with daily reset functionality built with Kotlin for Android.",
+        "link": {
+          "github": "https://github.com/jtothemoon/haru-todo-app"
+        },
+        "image": ""
+      },
+      {
+        "title": "Streamer Recommender",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Supabase", "icon": "SupabaseIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "A game streamer recommendation service for multiple platforms including YouTube, Twitch, and Chzzk based on game categories.",
+        "link": {
+          "github": "https://github.com/jtothemoon/streamer-recommender"
+        },
+        "image": ""
+      },
+      {
+        "title": "AI Bitcoin",
+        "tags": [
+          { "name": "Python" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Streamlit" },
+          { "name": "AWS" }
+        ],
+        "description": "An OpenAI-based Bitcoin automated trading system deployed on AWS.",
+        "link": {
+          "github": "https://github.com/jtothemoon/aibitcoin"
+        },
+        "image": ""
+      },
+      {
+        "title": "Just Today",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Vite", "icon": "ViteIcon" }
+        ],
+        "description": "A daily Todo application that automatically resets at a user-defined time each day.",
+        "link": {
+          "github": "https://github.com/jtothemoon/just-today"
+        },
+        "image": ""
+      },
+      {
+        "title": "AI Poet",
+        "tags": [
+          { "name": "Python" },
+          { "name": "LangChain" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" }
+        ],
+        "description": "An AI-powered poetry creation program.",
+        "link": {
+          "github": "https://github.com/jtothemoon/ai-poet"
+        },
+        "image": ""
+      },
+      {
+        "title": "Hear",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Python" },
+          { "name": "Flask" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "MySQL" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "ChatGPT" },
+          { "name": "ElevenLabs" },
+          { "name": "Colab" },
+          { "name": "TensorFlow" },
+          { "name": "Docker" },
+          { "name": "Naver Cloud Platform" },
+          { "name": "GitHub Actions" }
+        ],
+        "description": "An audiobook web service for visually impaired individuals, providing personalized voice synthesis and book summary features.",
+        "link": {
+          "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/hear"
+        },
+        "image": ""
+      },
+      {
+        "title": "HomeWalk Project",
+        "tags": [
+          { "name": "Spring Boot" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Java" },
+          { "name": "Python" },
+          { "name": "MySQL" },
+          { "name": "Flask" },
+          { "name": "OpenCV" },
+          { "name": "Android" }
+        ],
+        "description": "A family health management and step tracking application that supports family health goal achievement and communication.",
+        "link": {
+          "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/HomeWalk"
+        },
+        "image": ""
+      },
+      {
+        "title": "Java Mini Game Project",
+        "tags": [
+          { "name": "Java" }
+        ],
+        "description": "A simple intern training game developed in Java.",
+        "link": {
+          "github": "https://github.com/jtothemoon/MiniProject"
+        },
+        "image": ""
+      },
+      {
+        "title": "Korea Post Insurance Stabilization",
+        "tags": [
+          { "name": "NEXCORE" },
+          { "name": "Websquare5" },
+          { "name": "OZ Report" },
+          { "name": "Oracle" },
+          { "name": "Tera Stream" }
+        ],
+        "description": "Korea Post insurance system stabilization, resolving complex insurance business issues that arose after next-generation launch.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "Korea Post Next-Generation Construction Project",
+        "tags": [
+          { "name": "NEXCORE" },
+          { "name": "Websquare5" },
+          { "name": "OZ Report" },
+          { "name": "Oracle" },
+          { "name": "Tera Stream" }
+        ],
+        "description": "Participated as a core developer in Korea Post's next-generation system construction project, developing customer management systems.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "Kwangju Bank New CRM Project",
+        "tags": [
+          { "name": "Linux" },
+          { "name": "Java" },
+          { "name": "Spring" },
+          { "name": "jQuery" },
+          { "name": "Chart.js" },
+          { "name": "Tera Stream" },
+          { "name": "Oracle" }
+        ],
+        "description": "Built Kwangju Bank's new CRM system to enhance customer relationship management and data analysis capabilities.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "Kwangju Bank Card Marketing Project",
+        "tags": [
+          { "name": "Linux" },
+          { "name": "Java" },
+          { "name": "OBZEN Solution" },
+          { "name": "Tera Stream" },
+          { "name": "Oracle" }
+        ],
+        "description": "Developed and maintained Kwangju Bank's card marketing system to support efficient marketing strategy development.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "Kwangju Bank Credit Report Enhancement",
+        "tags": [
+          { "name": "Visual Basic" },
+          { "name": "BI MATRIX" },
+          { "name": "Oracle" },
+          { "name": "Terastream" }
+        ],
+        "description": "Enhanced Kwangju Bank's credit report system to improve data processing performance and report quality.",
+        "link": {},
+        "image": ""
+      }
+    ]
   },
   "contact": {
     "title": "Get in touch",

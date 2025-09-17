@@ -24,18 +24,18 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
             <CardTitle className='text-xl dark:text-neutral-100 text-neutral-900'>
               <Tooltip>
                 <TooltipTrigger asChild>
-                  {link.preview ? (
-                    <a
-                      href={link.preview}
-                      target='_blank'
-                      rel='noreferrer'
-                      className='inline-flex items-center hover:underline group underline-offset-4 gap-2'
-                    >
-                      <h3>{title}</h3>
-                      <ArrowUpRightIcon className='size-4 text-neutral-500 dark:group-hover:text-neutral-100 group-hover:text-neutral-900' />
-                    </a>
-                  ) : (
-                    link.github && (
+                  <div>
+                    {link.preview ? (
+                      <a
+                        href={link.preview}
+                        target='_blank'
+                        rel='noreferrer'
+                        className='inline-flex items-center hover:underline group underline-offset-4 gap-2'
+                      >
+                        <h3>{title}</h3>
+                        <ArrowUpRightIcon className='size-4 text-neutral-500 dark:group-hover:text-neutral-100 group-hover:text-neutral-900' />
+                      </a>
+                    ) : link.github && link.github !== 'javascript:void(0)' ? (
                       <a
                         href={link.github}
                         target='_blank'
@@ -45,8 +45,10 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
                         <h3>{title}</h3>
                         <ArrowUpRightIcon className='size-4 text-neutral-500 dark:group-hover:text-neutral-100 group-hover:text-neutral-900' />
                       </a>
-                    )
-                  )}
+                    ) : (
+                      <h3>{title}</h3>
+                    )}
+                  </div>
                 </TooltipTrigger>
                 <TooltipContent className='p-1' side='bottom'>
                   {image ? (
@@ -81,7 +83,7 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
             </CardDescription>
           </CardHeader>
 
-          <CardContent className='flex flex-col space-y-6 p-4 pt-0'>
+          <CardContent className={`flex flex-col p-4 pt-0 ${(link.preview || (link.github && link.github !== 'javascript:void(0)')) ? 'space-y-6' : 'space-y-2'}`}>
             <div className='flex flex-wrap gap-2'>
               {tags.map((tag) => (
                 <Badge
@@ -89,50 +91,52 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
                   variant='secondary'
                   key={tag.name}
                 >
-                  <tag.icon className='size-4' />
+                  {tag.icon && <tag.icon className='size-4' />}
                   <p className='text-xs'>{tag.name}</p>
                 </Badge>
               ))}
             </div>
 
-            <div className='flex gap-x-2'>
-              {link.preview && (
-                <Button
-                  variant='default'
-                  size={null}
-                  className='p-2 shadow'
-                  asChild
-                >
-                  <a
-                    href={link.preview}
-                    target='_blank'
-                    rel='noreferrer'
-                    className='flex items-center gap-2'
+            {(link.preview || (link.github && link.github !== 'javascript:void(0)')) && (
+              <div className='flex gap-x-2'>
+                {link.preview && (
+                  <Button
+                    variant='default'
+                    size={null}
+                    className='p-2 shadow'
+                    asChild
                   >
-                    <LinkIcon className='size-4' />
-                    <p>{t('projects.preview')}</p>
-                  </a>
-                </Button>
-              )}
-              {link.github && (
-                <Button
-                  variant='default'
-                  size={null}
-                  className='p-2 shadow'
-                  asChild
-                >
-                  <a
-                    href={link.github}
-                    target='_blank'
-                    rel='noreferrer'
-                    className='flex items-center gap-2'
+                    <a
+                      href={link.preview}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='flex items-center gap-2'
+                    >
+                      <LinkIcon className='size-4' />
+                      <p>{t('projects.preview')}</p>
+                    </a>
+                  </Button>
+                )}
+                {link.github && link.github !== 'javascript:void(0)' && (
+                  <Button
+                    variant='default'
+                    size={null}
+                    className='p-2 shadow'
+                    asChild
                   >
-                    <GitHubIcon className='size-4' />
-                    <p>{t('projects.github')}</p>
-                  </a>
-                </Button>
-              )}
-            </div>
+                    <a
+                      href={link.github}
+                      target='_blank'
+                      rel='noreferrer'
+                      className='flex items-center gap-2'
+                    >
+                      <GitHubIcon className='size-4' />
+                      <p>{t('projects.github')}</p>
+                    </a>
+                  </Button>
+                )}
+              </div>
+            )}
           </CardContent>
         </Card>
       ))}

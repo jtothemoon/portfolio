@@ -35,7 +35,7 @@
         "badges": ["하이브리드"],
         "jobs": [
           {
-            "title": "금융 소프트웨어 엔지니어",
+            "title": "소프트웨어 엔지니어",
             "start": "2025년 5월",
             "end": "현재",
             "description": [
@@ -145,456 +145,264 @@
     "github": "GitHub",
     "items": [
       {
-        "title": "BaseHub - Next.js 블로그",
+        "title": "자몽통신 홈페이지 개발",
         "tags": [
-          { "name": "BaseHub", "icon": "BasehubIcon" },
-          { "name": "CSS", "icon": "CSSIcon" },
           { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" }
+        ],
+        "description": "자몽통신의 공식 홈페이지를 Next.js와 모던 웹 기술을 활용하여 개발한 프로젝트입니다.",
+        "link": {
+          "preview": "https://jamong.it.kr"
+        },
+        "image": "/projects/images/jamong-website.png"
+      },
+      {
+        "title": "Fullpage Scroll Template",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Embla Carousel" },
+          { "name": "Lenis" }
+        ],
+        "description": "fullpage.js처럼 동작하는 풀페이지 스크롤 포트폴리오 템플릿으로, Embla Carousel과 Lenis를 활용한 부드러운 스크롤 경험을 제공합니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/fullpage-scroll-template"
+        },
+        "image": ""
+      },
+      {
+        "title": "Simple Clova Chatbot",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Naver Clova" }
+        ],
+        "description": "호남권 LLM 해커톤 경진대회 학생 멘토링을 위해 개발한 Naver Clova Studio 기반 챗봇 시스템입니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/simple-clova-chatbot"
+        },
+        "image": ""
+      },
+      {
+        "title": "Harusari",
+        "tags": [
+          { "name": "Flutter" },
+          { "name": "Dart" },
+          { "name": "SQLite" }
+        ],
+        "description": "1-3-5 생산성 방법론을 활용한 일일 작업 관리 Flutter 앱으로, 오늘의 할 일에 집중할 수 있도록 도와줍니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/harusari"
+        },
+        "image": ""
+      },
+      {
+        "title": "eGovFrame Template",
+        "tags": [
+          { "name": "Java" },
+          { "name": "Spring" },
+          { "name": "Gradle" },
+          { "name": "eGovFrame" }
+        ],
+        "description": "전자정부 프레임워크 템플릿을 IntelliJ와 Gradle 환경에서 동작하도록 구성한 프로젝트입니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/egovframe-template-simple-backend"
+        },
+        "image": ""
+      },
+      {
+        "title": "Haru Todo App",
+        "tags": [
+          { "name": "Kotlin" },
+          { "name": "Android" }
+        ],
+        "description": "Kotlin Android 기반 하루 초기화 일일 TODO 애플리케이션입니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/haru-todo-app"
+        },
+        "image": ""
+      },
+      {
+        "title": "Streamer Recommender",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Supabase", "icon": "SupabaseIcon" },
           { "name": "Vercel", "icon": "VercelIcon" }
         ],
-        "description": "Next.js와 BaseHub CMS로 만든 시작 가이드 템플릿 블로그입니다. BaseHub API를 사용하여 게시물을 가져오고 표시합니다.",
+        "description": "게임 카테고리 기반으로 YouTube, Twitch, Chzzk 등 다중 플랫폼의 스트리머를 추천하는 서비스입니다.",
         "link": {
-          "github": "https://github.com/basehub-ai/nextjs-blog",
-          "preview": "https://nextjs-blog-basehub.vercel.app"
+          "github": "https://github.com/jtothemoon/streamer-recommender"
         },
-        "image": "/projects/images/basehub-nextjs-blog.png"
+        "image": ""
       },
       {
-        "title": "Basement Challenge",
+        "title": "AI Bitcoin",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "Basement studio 스트림 챌린지.",
-        "link": {
-          "github": "https://github.com/emapeire/basement-challenge",
-          "preview": "https://emapeire-basement-challenge.vercel.app"
-        },
-        "image": "/projects/images/basement-challenge.png"
-      },
-      {
-        "title": "Chat With Vader",
-        "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "Python" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "Streamlit" },
+          { "name": "AWS" }
         ],
-        "description": "OpenAI API와 Vercel AI SDK를 사용하여 다스 베이더와 채팅할 수 있는 간단한 채팅 앱입니다.",
+        "description": "OpenAI 기반 비트코인 자동 거래 시스템으로 AWS에 배포된 프로젝트입니다.",
         "link": {
-          "github": "https://github.com/emapeire/chat-with-vader"
+          "github": "https://github.com/jtothemoon/aibitcoin"
         },
-        "image": "/projects/images/chat-with-vader.png"
+        "image": ""
       },
       {
-        "title": "Cohere Chat",
+        "title": "Just Today",
         "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Node.js", "icon": "NodeJSIcon" }
-        ],
-        "description": "Cohere API를 사용하여 사용자 입력에 대한 응답을 생성하는 챗봇입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/cohere-chat"
-        },
-        "image": "/projects/images/cohere-chat.png"
-      },
-      {
-        "title": "Comments App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
           { "name": "React", "icon": "ReactIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
           { "name": "Vite", "icon": "ViteIcon" }
         ],
-        "description": "React와 Vite로 만든 간단한 댓글 앱입니다.",
+        "description": "매일 설정된 시간에 자동으로 초기화되는 일일 Todo 애플리케이션입니다.",
         "link": {
-          "github": "https://github.com/emapeire/comments-react-query"
+          "github": "https://github.com/jtothemoon/just-today"
         },
-        "image": "/projects/images/comments-app.png"
+        "image": ""
       },
       {
-        "title": "Crud App",
+        "title": "AI Poet",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
+          { "name": "Python" },
+          { "name": "LangChain" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" }
+        ],
+        "description": "AI를 활용한 시 창작 프로그램입니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/ai-poet"
+        },
+        "image": ""
+      },
+      {
+        "title": "Hear",
+        "tags": [
           { "name": "React", "icon": "ReactIcon" },
-          { "name": "Redux", "icon": "ReduxIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 Vite로 만든 간단한 CRUD 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/crud-react-redux",
-          "preview": "https://emapeire-crud-react-redux.netlify.app"
-        },
-        "image": "/projects/images/crud-app.png"
-      },
-      {
-        "title": "Eloquent JavaScript Chat",
-        "tags": [
-          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "Python" },
+          { "name": "Flask" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "MySQL" },
           { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "ChatGPT" },
+          { "name": "ElevenLabs" },
+          { "name": "Colab" },
+          { "name": "TensorFlow" },
+          { "name": "Docker" },
+          { "name": "Naver Cloud Platform" },
+          { "name": "GitHub Actions" }
+        ],
+        "description": "시각장애인을 위한 오디오북 웹 서비스로, 개인 맞춤형 음성 합성과 도서 요약 기능을 제공합니다.",
+        "link": {
+          "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/hear"
+        },
+        "image": ""
+      },
+      {
+        "title": "HomeWalk",
+        "tags": [
+          { "name": "Spring Boot" },
           { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "Java" },
+          { "name": "Python" },
+          { "name": "MySQL" },
+          { "name": "Flask" },
+          { "name": "OpenCV" },
+          { "name": "Android" }
         ],
-        "description": "이 앱에서는 JavaScript에 대한 질문에 답변해주는 지능적인 라마와 상호작용할 수 있습니다.",
+        "description": "가족 건강 관리 및 걸음 수 추적 애플리케이션으로, 가족 간의 건강 목표 달성과 소통을 지원하는 프로젝트입니다.",
         "link": {
-          "github": "https://github.com/emapeire/eloquent-js-chat"
+          "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/HomeWalk"
         },
-        "image": "/projects/images/eloquent-js-chat.png"
+        "image": ""
       },
       {
-        "title": "Google Translate UI",
+        "title": "자바 미니 게임",
         "tags": [
-          { "name": "Bootstrap", "icon": "BootstrapIcon" },
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" },
-          { "name": "Vitest", "icon": "VitestIcon" }
+          { "name": "Java" }
         ],
-        "description": "OpenAI GPT-4-vision-preview 모델을 사용하여 이미지에서 코드를 생성하는 간단한 API입니다.",
+        "description": "자바로 만든 간단한 인턴키우기 게임입니다.",
         "link": {
-          "github": "https://github.com/emapeire/google-translate-clone"
+          "github": "https://github.com/jtothemoon/MiniProject"
         },
-        "image": "/projects/images/google-translate-clone.png"
+        "image": ""
       },
       {
-        "title": "Image 2 Code",
+        "title": "우체국 보험 안정화",
         "tags": [
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "NEXCORE" },
+          { "name": "Websquare5" },
+          { "name": "OZ Report" },
+          { "name": "Oracle" },
+          { "name": "Tera Stream" }
         ],
-        "description": "이미지를 코드로 변환하는 도구입니다. AI를 사용하여 이미지에서 코드를 생성합니다. GPT-4-vision-preview 모델을 기반으로 합니다.",
-        "link": {
-          "github": "https://github.com/emapeire/image-to-code"
-        },
-        "video": "/projects/videos/image-2-code.webm"
+        "description": "우체국 보험 시스템 안정화를 통해 차세대 오픈 후 발생한 복잡한 보험 업무 문제들을 해결했습니다.",
+        "link": {},
+        "image": ""
       },
       {
-        "title": "JavaScript Quiz",
+        "title": "우체국 차세대 구축 프로젝트",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
+          { "name": "NEXCORE" },
+          { "name": "Websquare5" },
+          { "name": "OZ Report" },
+          { "name": "Oracle" },
+          { "name": "Tera Stream" }
         ],
-        "description": "React와 Zustand로 만든 간단한 퀴즈 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/javascript-quiz",
-          "preview": "https://emapeire-javascript-quiz.netlify.app"
-        },
-        "image": "/projects/images/javascript-quiz.png"
+        "description": "우체국의 차세대 시스템 구축 프로젝트에 핵심 개발자로 참여하여 고객 관리 시스템을 개발한 프로젝트입니다.",
+        "link": {},
+        "image": ""
       },
       {
-        "title": "Mercado Libre Challenge",
+        "title": "광주은행 신 CRM 프로젝트",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "Linux" },
+          { "name": "Java" },
+          { "name": "Spring" },
+          { "name": "jQuery" },
+          { "name": "Chart.js" },
+          { "name": "Tera Stream" },
+          { "name": "Oracle" }
         ],
-        "description": "Mercado Libre API를 사용하여 제품 검색 앱을 만드는 챌린지입니다. Next.js와 TypeScript로 구축되었습니다.",
-        "link": {
-          "github": "https://github.com/emapeire/meli-challenge",
-          "preview": "https://emapeire-meli-challenge.vercel.app"
-        },
-        "image": "/projects/images/meli-challenge.png"
+        "description": "광주은행의 신규 CRM 시스템을 구축하여 고객 관계 관리와 데이터 분석 기능을 향상시킨 프로젝트입니다.",
+        "link": {},
+        "image": ""
       },
       {
-        "title": "Mouse Follower",
+        "title": "광주은행 카드마케팅 프로젝트",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
+          { "name": "Linux" },
+          { "name": "Java" },
+          { "name": "OBZEN Solution" },
+          { "name": "Tera Stream" },
+          { "name": "Oracle" }
         ],
-        "description": "React와 Vite로 만든 간단한 마우스 팔로워 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/mouse-follower",
-          "preview": "https://emapeire-mouse-follower.netlify.app"
-        },
-        "video": "/projects/videos/mouse-follower.webm"
+        "description": "광주은행의 카드마케팅 시스템을 개발하고 유지보수하여 효율적인 마케팅 전략 수립을 지원한 프로젝트입니다.",
+        "link": {},
+        "image": ""
       },
       {
-        "title": "Morty's characters",
+        "title": "광주은행 여신 보고서 고도화",
         "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "GraphQL", "icon": "GraphQLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
+          { "name": "Visual Basic" },
+          { "name": "BI MATRIX" },
+          { "name": "Oracle" },
+          { "name": "Terastream" }
         ],
-        "description": "모든 Morty의 캐릭터를 나열하는 간단한 앱입니다. Next.js와 GraphQL로 구축되었습니다.",
-        "link": {
-          "github": "https://github.com/emapeire/nextjs-graphql",
-          "preview": "https://emapeire-nextjs-graphql.vercel.app"
-        },
-        "image": "/projects/images/morty-s-characters.png"
-      },
-      {
-        "title": "Movie Search App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 Vite로 만든 간단한 영화 검색 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/react-movie-search",
-          "preview": "https://emapeire-react-movie-search.netlify.app"
-        },
-        "image": "/projects/images/movie-search.png"
-      },
-      {
-        "title": "Next.js Chat App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "NextJS-Chat는 초보자들이 AI 전문가를 통해 Next.js와 최고의 코딩 관행을 배울 수 있는 채팅 기반 인터페이스를 제공합니다.",
-        "link": {
-          "github": "https://github.com/nextjsargentina/next.js-chat"
-        },
-        "video": "/projects/videos/nextjs-chat.webm"
-      },
-      {
-        "title": "Next.js Releases App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "PNPM", "icon": "PNPMIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "NextJS Releases는 NextJS의 GitHub 저장소에서 새로운 릴리스를 추적하는 앱입니다.",
-        "link": {
-          "github": "https://github.com/nextjsargentina/next.js-releases",
-          "preview": "https://nextjs-releases.vercel.app"
-        },
-        "image": "/projects/images/nextjs-releases-app.png"
-      },
-      {
-        "title": "React GPT",
-        "tags": [
-          { "name": "OpenAI", "icon": "OpenAIIcon" },
-          { "name": "React", "icon": "ReactIcon" }
-        ],
-        "description": "React 커뮤니티를 위한 AI 기반 웹 엔지니어링 전문가입니다.",
-        "link": {
-          "preview": "https://chat.openai.com/g/g-HNcbE0A5n-reactgpt"
-        },
-        "image": "/projects/images/react-gpt.png"
-      },
-      {
-        "title": "Screen Recorder",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" }
-        ],
-        "description": "MediaRecorder 웹 API로 만든 네이티브 화면 녹화기",
-        "link": {
-          "github": "https://github.com/emapeire/screen-recorder"
-        },
-        "video": "/projects/videos/screen-recorder.webm"
-      },
-      {
-        "title": "Shopping Cart",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 Vite로 만든 간단한 쇼핑 카트 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/shopping-cart",
-          "preview": "https://emapeire-shopping-cart.netlify.app"
-        },
-        "image": "/projects/images/shopping-cart.png"
-      },
-      {
-        "title": "Space X Launches",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "모든 SpaceX 발사를 나열하는 간단한 앱입니다. Astro와 TypeScript로 구축되었습니다.",
-        "link": {
-          "github": "https://github.com/emapeire/spacex-launches",
-          "preview": "https://emapeire-spacex-launches.vercel.app"
-        },
-        "image": "/projects/images/spacex-launches.png"
-      },
-      {
-        "title": "Spotify UI",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Svelte", "icon": "SvelteIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "Svelte와 Astro로 구축된 오픈소스 Spotify 클론입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/spotify-clone",
-          "preview": "https://emapeire-spotify-clone.vercel.app"
-        },
-        "image": "/projects/images/spotify-clone.png"
-      },
-      {
-        "title": "SWC Router",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "SWC", "icon": "SWCIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "swc-router를 사용하여 간단한 단일 페이지 애플리케이션(SPA)을 쉽게 만들 수 있습니다. 이 경량 라우팅 솔루션은 React 애플리케이션을 위해 SWC의 속도를 활용합니다.",
-        "link": {
-          "github": "https://github.com/emapeire/swc-router",
-          "preview": "https://npmjs.com/package/swc-router"
-        },
-        "image": "/projects/images/swc-router.png"
-      },
-      {
-        "title": "View Transitions API",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" }
-        ],
-        "description": "Astro와 함께 View Transitions API를 사용하는 방법을 보여주는 샘플 프로젝트입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/view-transitions-api",
-          "preview": "https://emapeire-view-transitions-api.vercel.app"
-        },
-        "video": "/projects/videos/view-transitions-api.webm"
-      },
-      {
-        "title": "Tesla Landing UI",
-        "tags": [
-          { "name": "Astro", "icon": "AstroIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" }
-        ],
-        "description": "Astro와 Tailwind CSS로 구축된 오픈소스 Tesla 랜딩 페이지입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/tesla-landing",
-          "preview": "https://emapeire-tesla-landing.vercel.app"
-        },
-        "video": "/projects/videos/tesla-landing-clone.webm"
-      },
-      {
-        "title": "Tic Tac Toe",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 TypeScript로 만든 간단한 틱택토 게임입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/tic-tac-toe",
-          "preview": "https://emapeire-tic-tac-toe.netlify.app"
-        },
-        "image": "/projects/images/tic-tac-toe.png"
-      },
-      {
-        "title": "Todo App",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 TypeScript로 만든 간단한 할 일 앱입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/todo-app-ts",
-          "preview": "https://emapeire-todo-ts.netlify.app"
-        },
-        "image": "/projects/images/todo-app-ts.png"
-      },
-      {
-        "title": "Twitter Follow Card UI",
-        "tags": [
-          { "name": "CSS", "icon": "CSSIcon" },
-          { "name": "HTML", "icon": "HTMLIcon" },
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Vite", "icon": "ViteIcon" }
-        ],
-        "description": "React와 Vite로 구축된 오픈소스 Twitter 팔로우 카드입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/twitter-follow-card",
-          "preview": "https://emapeire-twitter-follow-card.netlify.app"
-        },
-        "image": "/projects/images/twitter-follow-card.png"
-      },
-      {
-        "title": "Twitter UI",
-        "tags": [
-          { "name": "JavaScript", "icon": "JavaScriptIcon" },
-          { "name": "Next.js", "icon": "NextJSIcon" },
-          { "name": "React", "icon": "ReactIcon" },
-          { "name": "Supabase", "icon": "SupabaseIcon" },
-          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-          { "name": "TypeScript", "icon": "TypeScriptIcon" }
-        ],
-        "description": "Next.js와 Supabase로 구축된 오픈소스 Twitter 클론입니다.",
-        "link": {
-          "github": "https://github.com/emapeire/twitter-clone"
-        },
-        "image": "/projects/images/twitter-clone.png"
+        "description": "광주은행의 여신 보고서 시스템을 고도화하여 데이터 처리 성능과 보고서 품질을 향상시킨 프로젝트입니다.",
+        "link": {},
+        "image": ""
       }
     ]
   },
