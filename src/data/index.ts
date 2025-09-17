@@ -27,7 +27,7 @@ import { FileTextIcon, LinkIcon, MailIcon } from 'lucide-react'
 import type { IconComponent } from '@/types'
 
 export const AVATAR = {
-  name: 'Lim Hyun Jin',
+  name: 'LIM HYUN JIN',
   initials: 'LHJ'
 }
 

@@ -112,7 +112,7 @@ export function ContactForm() {
     <div className='flex justify-center items-center'>
       <Card className='w-full max-w-3xl'>
         <CardHeader>
-          <CardDescription className='font-mono text-pretty'>
+          <CardDescription className='font-sans text-pretty'>
             {t('contact.form.card-description')}
           </CardDescription>
         </CardHeader>

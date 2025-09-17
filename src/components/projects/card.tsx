@@ -76,7 +76,7 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
               </Tooltip>
             </CardTitle>
 
-            <CardDescription className='font-mono dark:text-neutral-400 text-neutral-600'>
+            <CardDescription className='font-sans dark:text-neutral-400 text-neutral-600'>
               {description}
             </CardDescription>
           </CardHeader>

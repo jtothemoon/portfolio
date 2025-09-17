@@ -12,7 +12,7 @@ export function Contact() {
         {t('contact.title')}
       </h2>
       <div className='flex flex-col gap-4'>
-        <p className='font-mono mx-auto max-w-3xl mb-4 dark:text-neutral-200 text-neutral-800 text-pretty'>
+        <p className='font-sans mx-auto max-w-3xl mb-4 dark:text-neutral-200 text-neutral-800 text-pretty'>
           {t('contact.description')}
         </p>
         <ContactForm />

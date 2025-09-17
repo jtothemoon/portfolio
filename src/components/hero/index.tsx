@@ -12,19 +12,12 @@ export function Hero() {
   return (
     <>
       <div className='flex flex-row'>
-        <a
-          href='https://github.com/emapeire'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='rounded-full'
-        >
-          <Avatar className='size-28 shadow border'>
-            <AvatarImage alt={avatar.name} src={'/assets/avatar.webp'} />
-            <AvatarFallback className='font-mono font-bold'>
-              {avatar.initials}
-            </AvatarFallback>
-          </Avatar>
-        </a>
+        <Avatar className='size-28 shadow border'>
+          <AvatarImage alt={avatar.name} src={'/assets/avatar.webp'} />
+          <AvatarFallback className='font-sans font-bold'>
+            {avatar.initials}
+          </AvatarFallback>
+        </Avatar>
       </div>
 
       <div className='flex items-center flex-row gap-4'>
@@ -34,7 +27,7 @@ export function Hero() {
         <Button
           variant='default'
           size={null}
-          className='font-mono font-bold text-xs px-2 py-1 rounded-full hover:scale-105 transition-all ease-in-out duration-300'
+          className='font-sans font-bold text-xs px-2 py-1 rounded-full hover:scale-105 transition-all ease-in-out duration-300'
           asChild
         >
           <a
