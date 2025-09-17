@@ -158,7 +158,7 @@
         "link": {
           "preview": "https://jamong.it.kr"
         },
-        "image": "/projects/images/jamong-website.png"
+        "image": "/projects/images/jamong.png"
       },
       {
         "title": "Fullpage Scroll Template",
@@ -174,7 +174,7 @@
         "link": {
           "github": "https://github.com/jtothemoon/fullpage-scroll-template"
         },
-        "image": ""
+        "image": "/projects/images/fullpage-scroll-template.png"
       },
       {
         "title": "Simple Clova Chatbot",
@@ -189,7 +189,7 @@
         "link": {
           "github": "https://github.com/jtothemoon/simple-clova-chatbot"
         },
-        "image": ""
+        "image": "/projects/images/simple-clova-chatbot.png"
       },
       {
         "title": "Harusari",
@@ -202,7 +202,7 @@
         "link": {
           "github": "https://github.com/jtothemoon/harusari"
         },
-        "image": ""
+        "image": "/projects/images/harusari.png"
       },
       {
         "title": "eGovFrame Template",
@@ -243,7 +243,7 @@
         "link": {
           "github": "https://github.com/jtothemoon/streamer-recommender"
         },
-        "image": ""
+        "image": "/projects/images/spick.png"
       },
       {
         "title": "AI Bitcoin",
@@ -284,7 +284,7 @@
         "link": {
           "github": "https://github.com/jtothemoon/ai-poet"
         },
-        "image": ""
+        "image": "/projects/images/ai-poet.png"
       },
       {
         "title": "Hear",
@@ -307,10 +307,10 @@
         "link": {
           "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/hear"
         },
-        "image": ""
+        "image": "/projects/images/hear.png"
       },
       {
-        "title": "HomeWalk Project",
+        "title": "HomeWalk",
         "tags": [
           { "name": "Spring Boot" },
           { "name": "React", "icon": "ReactIcon" },
@@ -325,7 +325,7 @@
         "link": {
           "github": "https://github.com/2024-SMHRD-IS-CLOUD-3/HomeWalk"
         },
-        "image": ""
+        "image": "/projects/images/homewalk.png"
       },
       {
         "title": "Java Mini Game Project",
