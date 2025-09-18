@@ -1,7 +1,6 @@
 import type React from 'react'
 import { type Metadata } from 'next'
 import { ViewTransitions } from 'next-view-transitions'
-import localFont from 'next/font/local'
 import { Head } from '@/components/head'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
@@ -15,13 +14,6 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { type Locale } from '@/i18n/request'
 import '../styles/globals.css'
-
-const pretendard = localFont({
-  src: '../../../public/fonts/PretendardVariable.woff2',
-  display: 'swap',
-  weight: '45 920',
-  variable: '--font-pretendard'
-})
 
 const metadata: Metadata = {
   title: '임현진 포트폴리오 | LIM HYUN JIN Portfolio',
@@ -40,21 +32,21 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${pretendard.variable} min-h-screen bg-background antialiased overflow-y-scroll`}
+      className={'min-h-screen bg-background antialiased overflow-y-scroll'}
       suppressHydrationWarning
     >
       <Head metadata={metadata} />
-      <body className='w-full'>
+      <body className="font-pretendard w-full">
         <NextIntlClientProvider messages={messages}>
           <ViewTransitions>
             <ThemeProvider
-              attribute='class'
-              defaultTheme='system'
+              attribute="class"
+              defaultTheme="system"
               enableSystem
               disableTransitionOnChange
             >
               <TooltipProvider>
-                <main className='flex flex-col items-center justify-center min-h-screen pt-24 pb-8 px-4'>
+                <main className="flex flex-col items-center justify-center min-h-screen pt-24 pb-8 px-4">
                   <Header />
                   {children}
                   <Footer />

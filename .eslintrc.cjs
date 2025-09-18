@@ -34,7 +34,7 @@ module.exports = {
     '@typescript-eslint/no-misused-promises': 'off',
     'react-refresh/only-export-components': 'off',
     'react/prop-types': 'off',
-    'react/jsx-no-target-blank': [2, { allowReferrer: false }]
+    'react/jsx-no-target-blank': [2, { allowReferrer: false }],
   },
   overrides: [
     {
