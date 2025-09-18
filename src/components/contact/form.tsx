@@ -62,7 +62,7 @@ export function ContactForm() {
     return () => {
       subscription.unsubscribe()
     }
-  }, [watch, setError, clearErrors])
+  }, [watch, setError, clearErrors, t])
 
   async function onSubmit(data: FormValues) {
     if (data.honeypot) {

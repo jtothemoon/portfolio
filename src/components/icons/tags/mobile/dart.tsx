@@ -1,4 +1,4 @@
-import { type SVGProps } from 'react';
+import { type SVGProps } from 'react'
 
 export function DartIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -26,5 +26,5 @@ export function DartIcon(props: SVGProps<SVGSVGElement>) {
         points="35,37 13,37 19,43 35,43"
       />
     </svg>
-  );
+  )
 }

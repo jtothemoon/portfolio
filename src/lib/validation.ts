@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import { TranslateProps } from '@/types'
+import type { TranslateProps } from '@/types'
 
 const nameRegex = /^[A-Za-zÀ-ÿ' -]{2,}$/
 

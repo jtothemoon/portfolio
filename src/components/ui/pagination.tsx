@@ -40,7 +40,7 @@ type PaginationLinkProps = {
 } & Pick<ButtonProps, 'size'> &
   React.ComponentProps<typeof Link>
 
-type PaginationTranslationProps = {
+interface PaginationTranslationProps {
   t: string
 }
 

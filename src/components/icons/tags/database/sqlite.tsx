@@ -1,4 +1,4 @@
-import { type SVGProps } from 'react';
+import { type SVGProps } from 'react'
 
 export function SQLiteIcon(props: SVGProps<SVGSVGElement>) {
   return (
@@ -35,5 +35,5 @@ export function SQLiteIcon(props: SVGProps<SVGSVGElement>) {
         fill="#003956"
       />
     </svg>
-  );
+  )
 }

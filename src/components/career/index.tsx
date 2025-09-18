@@ -1,11 +1,11 @@
 import { CareerItem } from './item'
 import { useTranslations } from 'next-intl'
 import { FileTextIcon } from 'lucide-react'
-import { CareerProps } from '@/types'
+import type { CareerProps } from '@/types'
 
 export function Career() {
   const t = useTranslations('career')
-  const companies: CareerProps[] = t.raw('companies')
+  const companies: CareerProps[] = t.raw('companies') as CareerProps[]
 
   return (
     <>

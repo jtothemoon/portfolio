@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access */
 import { notFound } from 'next/navigation'
 import { getRequestConfig } from 'next-intl/server'
 
@@ -11,21 +12,19 @@ export default getRequestConfig(async ({ requestLocale }) => {
   let locale = await requestLocale
 
   // Validate and provide fallback if needed
-  if (!locale || !locales.includes(locale as Locale)) {
+  if (!locale || !locales.includes(locale)) {
     locale = defaultLocale
   }
 
   const baseLocale = new Intl.Locale(locale).baseName
 
   // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(baseLocale as Locale)) notFound()
+  if (!locales.includes(baseLocale)) notFound()
 
   return {
     locale,
-    messages: (
-      await (locale === 'ko'
+    messages: (await (locale === 'ko'
         ? import('../messages/ko.json')
-        : import(`../messages/${locale}.json`))
-    ).default
+        : import(`../messages/${locale}.json`))).default
   }
 })

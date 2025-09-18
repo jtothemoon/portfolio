@@ -25,7 +25,7 @@ export function Projects() {
       tags:
         project.tags?.map((tag) => ({
           ...tag,
-          icon: iconMap[tag.icon]!
+          icon: iconMap[tag.icon] ?? (() => null)
         })) || []
     })
   )

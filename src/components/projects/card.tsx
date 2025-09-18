@@ -83,7 +83,7 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
             </CardDescription>
           </CardHeader>
 
-          <CardContent className={`flex flex-col p-4 pt-0 ${(link.preview || (link.github && link.github !== 'javascript:void(0)')) ? 'space-y-6' : 'space-y-2'}`}>
+          <CardContent className={`flex flex-col p-4 pt-0 ${(link.preview ?? (link.github && link.github !== 'javascript:void(0)')) ? 'space-y-6' : 'space-y-2'}`}>
             <div className='flex flex-wrap gap-2'>
               {tags.map((tag) => (
                 <Badge
@@ -97,7 +97,7 @@ export function ProjectCard({ projects }: { projects: ProjectProps[] }) {
               ))}
             </div>
 
-            {(link.preview || (link.github && link.github !== 'javascript:void(0)')) && (
+            {(link.preview ?? (link.github && link.github !== 'javascript:void(0)')) && (
               <div className='flex gap-x-2'>
                 {link.preview && (
                   <Button

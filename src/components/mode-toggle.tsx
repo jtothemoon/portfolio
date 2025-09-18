@@ -40,19 +40,19 @@ export function ModeToggle() {
       <DropdownMenuContent align='center' side='bottom'>
         <DropdownMenuCheckboxItem
           checked={theme === 'light'}
-          onClick={() => setTheme('light')}
+          onClick={() => { setTheme('light') }}
         >
           {t('mode-toggle.light')}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === 'dark'}
-          onClick={() => setTheme('dark')}
+          onClick={() => { setTheme('dark') }}
         >
           {t('mode-toggle.dark')}
         </DropdownMenuCheckboxItem>
         <DropdownMenuCheckboxItem
           checked={theme === 'system'}
-          onClick={() => setTheme('system')}
+          onClick={() => { setTheme('system') }}
         >
           {t('mode-toggle.system')}
         </DropdownMenuCheckboxItem>
