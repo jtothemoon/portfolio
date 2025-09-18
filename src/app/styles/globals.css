@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Pretendard Font */
+body, input, textarea, select, button, table {
+  font-family: var(--font-pretendard), -apple-system, BlinkMacSystemFont,
+               "Malgun Gothic", "맑은 고딕", helvetica, "Apple SD Gothic Neo",
+               'Noto Sans KR', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

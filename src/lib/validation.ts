@@ -1,18 +1,18 @@
 import { z } from 'zod'
 import type { TranslateProps } from '@/types'
 
-const nameRegex = /^[A-Za-zÀ-ÿ' -]{2,}$/
+const nameRegex = /^[A-Za-zÀ-ÿ가-힣' -]{1,}$/
 
 export const getFormSchema = (t: TranslateProps) =>
   z.object({
     firstName: z
       .string()
-      .min(2, t('contact.form.validation.first-name.min'))
+      .min(1, t('contact.form.validation.first-name.min'))
       .max(50, t('contact.form.validation.first-name.max'))
       .regex(nameRegex, t('contact.form.validation.first-name.regex')),
     lastName: z
       .string()
-      .min(2, t('contact.form.validation.last-name.min'))
+      .min(1, t('contact.form.validation.last-name.min'))
       .max(50, t('contact.form.validation.last-name.max'))
       .regex(nameRegex, t('contact.form.validation.last-name.regex')),
     email: z

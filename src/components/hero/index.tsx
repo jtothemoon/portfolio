@@ -1,4 +1,7 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
+import { useToast } from '@/components/ui/use-toast'
 import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip'
 import { Button } from '../ui/button'
@@ -8,6 +11,14 @@ import { data } from '@/constants'
 export function Hero() {
   const { avatar, links } = data
   const t = useTranslations()
+  const { toast } = useToast()
+
+  const handleResumeClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    toast({
+      description: '준비중입니다'
+    })
+  }
 
   return (
     <>
@@ -76,10 +87,11 @@ export function Hero() {
                 <a
                   key={link.title}
                   href={link.url}
-                  target='_blank'
+                  target={link.title === 'Resume' ? '_self' : '_blank'}
                   rel='noopener noreferrer'
                   aria-label={link.title}
                   className='flex justify-center items-center md:gap-2'
+                  onClick={link.title === 'Resume' ? handleResumeClick : undefined}
                 >
                   <link.icon className='size-6 stroke-[1.5]' />
                   <p className='hidden md:block'>{link.title}</p>

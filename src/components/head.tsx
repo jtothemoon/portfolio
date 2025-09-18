@@ -64,6 +64,7 @@ export function Head({ metadata }: { metadata: Metadata }) {
         href='/apple-touch-icon.png'
       />
       <link rel='manifest' href='/site.webmanifest' />
+
     </head>
   )
 }

@@ -342,7 +342,7 @@
           { "name": "NEXCORE" },
           { "name": "Websquare5" },
           { "name": "OZ Report" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Tera Stream" }
         ],
         "description": "우체국 보험 시스템 안정화를 통해 차세대 오픈 후 발생한 복잡한 보험 업무 문제들을 해결했습니다.",
@@ -355,7 +355,7 @@
           { "name": "NEXCORE" },
           { "name": "Websquare5" },
           { "name": "OZ Report" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Tera Stream" }
         ],
         "description": "우체국의 차세대 시스템 구축 프로젝트에 핵심 개발자로 참여하여 고객 관리 시스템을 개발한 프로젝트입니다.",
@@ -365,13 +365,13 @@
       {
         "title": "광주은행 신 CRM 프로젝트",
         "tags": [
-          { "name": "Linux" },
+          { "name": "Linux", "icon": "LinuxIcon" },
           { "name": "Java", "icon": "JavaIcon" },
           { "name": "Spring", "icon": "SpringIcon" },
           { "name": "jQuery" },
           { "name": "Chart.js" },
           { "name": "Tera Stream" },
-          { "name": "Oracle" }
+          { "name": "Oracle", "icon": "OracleIcon" }
         ],
         "description": "광주은행의 신규 CRM 시스템을 구축하여 고객 관계 관리와 데이터 분석 기능을 향상시킨 프로젝트입니다.",
         "link": {},
@@ -380,11 +380,11 @@
       {
         "title": "광주은행 카드마케팅 프로젝트",
         "tags": [
-          { "name": "Linux" },
+          { "name": "Linux", "icon": "LinuxIcon" },
           { "name": "Java", "icon": "JavaIcon" },
           { "name": "OBZEN Solution" },
           { "name": "Tera Stream" },
-          { "name": "Oracle" }
+          { "name": "Oracle", "icon": "OracleIcon" }
         ],
         "description": "광주은행의 카드마케팅 시스템을 개발하고 유지보수하여 효율적인 마케팅 전략 수립을 지원한 프로젝트입니다.",
         "link": {},
@@ -395,7 +395,7 @@
         "tags": [
           { "name": "Visual Basic", "icon": "VisualBasicIcon" },
           { "name": "BI MATRIX" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Terastream" }
         ],
         "description": "광주은행의 여신 보고서 시스템을 고도화하여 데이터 처리 성능과 보고서 품질을 향상시킨 프로젝트입니다.",

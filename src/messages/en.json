@@ -342,7 +342,7 @@
           { "name": "NEXCORE" },
           { "name": "Websquare5" },
           { "name": "OZ Report" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Tera Stream" }
         ],
         "description": "Korea Post insurance system stabilization, resolving complex insurance business issues that arose after next-generation launch.",
@@ -355,7 +355,7 @@
           { "name": "NEXCORE" },
           { "name": "Websquare5" },
           { "name": "OZ Report" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Tera Stream" }
         ],
         "description": "Participated as a core developer in Korea Post's next-generation system construction project, developing customer management systems.",
@@ -365,13 +365,13 @@
       {
         "title": "Kwangju Bank New CRM Project",
         "tags": [
-          { "name": "Linux" },
+          { "name": "Linux", "icon": "LinuxIcon" },
           { "name": "Java", "icon": "JavaIcon" },
           { "name": "Spring", "icon": "SpringIcon" },
           { "name": "jQuery" },
           { "name": "Chart.js" },
           { "name": "Tera Stream" },
-          { "name": "Oracle" }
+          { "name": "Oracle", "icon": "OracleIcon" }
         ],
         "description": "Built Kwangju Bank's new CRM system to enhance customer relationship management and data analysis capabilities.",
         "link": {},
@@ -380,11 +380,11 @@
       {
         "title": "Kwangju Bank Card Marketing Project",
         "tags": [
-          { "name": "Linux" },
+          { "name": "Linux", "icon": "LinuxIcon" },
           { "name": "Java", "icon": "JavaIcon" },
           { "name": "OBZEN Solution" },
           { "name": "Tera Stream" },
-          { "name": "Oracle" }
+          { "name": "Oracle", "icon": "OracleIcon" }
         ],
         "description": "Developed and maintained Kwangju Bank's card marketing system to support efficient marketing strategy development.",
         "link": {},
@@ -395,7 +395,7 @@
         "tags": [
           { "name": "Visual Basic", "icon": "VisualBasicIcon" },
           { "name": "BI MATRIX" },
-          { "name": "Oracle" },
+          { "name": "Oracle", "icon": "OracleIcon" },
           { "name": "Terastream" }
         ],
         "description": "Enhanced Kwangju Bank's credit report system to improve data processing performance and report quality.",

@@ -31,15 +31,16 @@ import { GradleIcon } from '@/components/icons/tags/mobile/gradle'
 import { DartIcon } from '@/components/icons/tags/mobile/dart'
 
 // Database
+import { OracleIcon } from '@/components/icons/tags/database/oracle'
 import { MySQLIcon } from '@/components/icons/tags/database/mysql'
 import { SQLiteIcon } from '@/components/icons/tags/database/sqlite'
 import { SupabaseIcon } from '@/components/icons/tags/database/supabase'
 
 // DevOps
+import { LinuxIcon } from '@/components/icons/tags/devops/LinuxIcon'
 import { DockerIcon } from '@/components/icons/tags/devops/docker'
 import { AWSIcon } from '@/components/icons/tags/devops/aws'
 import { VercelIcon } from '@/components/icons/tags/devops/vercel'
-import { LinuxIcon } from '@/components/icons/tags/devops/linux'
 import { GitHubActionsIcon } from '@/components/icons/tags/devops/github-actions'
 import { PNPMIcon } from '@/components/icons/tags/devops/pnpm'
 
@@ -89,8 +90,8 @@ export const LINKS = [
     icon: MailIcon
   },
   {
-    title: 'CV App',
-    url: 'https://cv.emapeire.xyz',
+    title: 'Resume',
+    url: '#',
     icon: FileTextIcon
   },
   {
@@ -124,7 +125,7 @@ export const iconMap: Record<string, IconComponent> = {
   BasehubIcon,
   GraphQLIcon,
   VisualBasicIcon,
-  LinuxIcon,
+  OracleIcon,
   JavaIcon,
   SpringIcon,
   PythonIcon,
@@ -134,6 +135,7 @@ export const iconMap: Record<string, IconComponent> = {
   FlaskIcon,
   ElevenLabsIcon,
   TensorFlowIcon,
+  LinuxIcon,
   DockerIcon,
   GitHubActionsIcon,
   LangChainIcon,
