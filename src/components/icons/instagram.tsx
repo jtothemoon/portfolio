@@ -7,9 +7,9 @@ export function InstagramIcon(props: SVGProps<SVGSVGElement>) {
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 600 600'
     >
-      <circle cx='300' cy='300' r='297.5' fill='#000000' />
+      <circle cx='300' cy='300' r='297.5' className='fill-black dark:fill-white' />
       <path
-        fill='#FFFFFF'
+        className='fill-white dark:fill-black'
         d='M300,123.5c-47.9,0-54,0.2-72.8,1.1c-18.8,0.9-31.6,3.8-42.8,8.2c-11.6,4.5-21.5,10.5-31.3,20.4
         c-9.8,9.8-15.8,19.7-20.4,31.3c-4.4,11.2-7.4,24.1-8.2,42.8c-0.8,18.8-1.1,24.8-1.1,72.8c0,47.9,0.2,53.9,1.1,72.8
         c0.9,18.8,3.8,31.6,8.2,42.8c4.5,11.6,10.5,21.5,20.4,31.3c9.8,9.8,19.7,15.9,31.3,20.4c11.2,4.4,24.1,7.3,42.8,8.2
