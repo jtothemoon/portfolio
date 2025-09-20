@@ -95,7 +95,7 @@ export async function POST(request: Request) {
       )
     }
     const { data, error } = await resend.emails.send({
-      from: 'LIM HYUN JIN <onboarding@resend.dev>',
+      from: 'LIM HYUN JIN <contact@limhyunjin.com>',
       to: 'jtothemoon1987@gmail.com',
       subject: `Contact Form: Message from ${firstName} ${lastName}`,
       react: ContactEmailTemplate({
