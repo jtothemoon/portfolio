@@ -12,6 +12,7 @@ export function Head({ metadata }: { metadata: Metadata }) {
       <meta name="robots" content="index, follow" />
       <meta name="google-site-verification" content="4rxwgcipDI-3NLA-6ZHI_58PzTupyMsO4_WDt06f3dQ" />
       <meta name="naver-site-verification" content="b3a8b3edecfe1b668e1ea135572fc374d0659b10" />
+      <meta name="msvalidate.01" content="AE558A915942DBD8D864DB77ACCD8C09" />
 
       <meta property="og:title" content={metadata.title?.toString()} />
       <meta
