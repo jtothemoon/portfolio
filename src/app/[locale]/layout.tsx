@@ -15,9 +15,16 @@ import { getMessages } from 'next-intl/server'
 import { type Locale } from '@/i18n/request'
 import '../styles/globals.css'
 
-const metadata: Metadata = {
+export const metadata: Metadata = {
   title: '임현진 포트폴리오 | LIM HYUN JIN Portfolio',
-  description: '금융 소프트웨어 엔지니어 임현진의 포트폴리오입니다. 풀스택 개발, 웹 접근성, 성능 최적화에 집중하는 개발자입니다. Financial Software Engineer LIM HYUN JIN Portfolio.'
+  description: '금융 소프트웨어 엔지니어 임현진의 포트폴리오입니다. 풀스택 개발, 웹 접근성, 성능 최적화에 집중하는 개발자입니다. Financial Software Engineer LIM HYUN JIN Portfolio.',
+  verification: {
+    google: '4rxwgcipDI-3NLA-6ZHI_58PzTupyMsO4_WDt06f3dQ',
+    other: {
+      'naver-site-verification': 'b3a8b3edecfe1b668e1ea135572fc374d0659b10',
+      'msvalidate.01': 'AE558A915942DBD8D864DB77ACCD8C09'
+    }
+  }
 }
 
 export default async function RootLayout({
