@@ -102,3 +102,13 @@ src/
 - `src/types.d.ts`에 공통 타입 정의
 - `IconComponent` 타입 활용
 - 엄격한 TypeScript 설정 준수
+
+### 이메일 기능
+- **이메일 서비스**: Resend 사용
+- **연락처 폼**: `src/app/[locale]/contact/page.tsx`에서 react-hook-form + Zod 검증
+- **환경 변수**: `RESEND_API_KEY` 필요
+
+### ESLint 설정
+- **확장 설정**: eslint-config-love, standard-with-typescript
+- **플러그인**: react, react-hooks, import, promise
+- **자동 수정**: `npm run lint -- --fix`로 자동 수정 가능

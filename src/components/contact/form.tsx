@@ -131,7 +131,7 @@ export function ContactForm() {
                           <FormControl>
                             <Input
                               {...field}
-                              id='first-name'
+                              autoComplete='given-name'
                               placeholder={t(
                                 'contact.form.first-name-placeholder'
                               )}
@@ -152,7 +152,7 @@ export function ContactForm() {
                           <FormControl>
                             <Input
                               {...field}
-                              id='last-name'
+                              autoComplete='family-name'
                               placeholder={t(
                                 'contact.form.last-name-placeholder'
                               )}
@@ -174,7 +174,8 @@ export function ContactForm() {
                         <FormControl>
                           <Input
                             {...field}
-                            id='email'
+                            type='email'
+                            autoComplete='email'
                             placeholder={t('contact.form.email-placeholder')}
                           />
                         </FormControl>
@@ -193,7 +194,6 @@ export function ContactForm() {
                         <FormControl>
                           <Textarea
                             {...field}
-                            id='message'
                             placeholder={t('contact.form.message-placeholder')}
                           />
                         </FormControl>
@@ -211,7 +211,6 @@ export function ContactForm() {
                       <FormItem>
                         <Input
                           {...field}
-                          id='honeypot'
                           tabIndex={-1}
                           autoComplete='off'
                         />
