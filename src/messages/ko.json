@@ -145,6 +145,27 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "GUTI - 위치 기반 구독 플랫폼",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Material-UI", "icon": "MaterialUIIcon" },
+          { "name": "TanStack Query" },
+          { "name": "Zustand" },
+          { "name": "Firebase", "icon": "FirebaseIcon" },
+          { "name": "Kakao Map" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "AWS", "icon": "AWSIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
+        ],
+        "description": "Flutter 앱 내 WebView로 동작하는 위치 기반 구독 상품 판매 플랫폼입니다. 카카오맵 기반 주변 가게 검색, QR 코드 사용 인증, NicePay 결제 연동 기능을 제공합니다.",
+        "link": {
+          "preview": "https://guti.kr"
+        },
+        "image": "/projects/images/guti.png"
+      },
+      {
         "title": "자몽통신 홈페이지 개발",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },

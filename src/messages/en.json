@@ -145,6 +145,27 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "GUTI - Location-based Subscription Platform",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Material-UI", "icon": "MaterialUIIcon" },
+          { "name": "TanStack Query" },
+          { "name": "Zustand" },
+          { "name": "Firebase", "icon": "FirebaseIcon" },
+          { "name": "Kakao Map" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "AWS", "icon": "AWSIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
+        ],
+        "description": "A location-based subscription product sales platform operating within a Flutter app WebView. Features include Kakao Map-based nearby store search, QR code usage authentication, and NicePay payment integration.",
+        "link": {
+          "preview": "https://guti.kr"
+        },
+        "image": "/projects/images/guti.png"
+      },
+      {
         "title": "Jamong Communications Website Development",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },

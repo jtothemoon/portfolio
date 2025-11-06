@@ -14,6 +14,7 @@ import { TailwindCSSIcon } from '@/components/icons/tags/frontend/tailwind-css'
 import { AstroIcon } from '@/components/icons/tags/frontend/astro'
 import { SvelteIcon } from '@/components/icons/tags/frontend/svelte'
 import { BootstrapIcon } from '@/components/icons/tags/frontend/bootstrap'
+import { MaterialUIIcon } from '@/components/icons/tags/frontend/material-ui'
 
 // Backend
 import { NodeJSIcon } from '@/components/icons/tags/backend/nodejs'
@@ -23,6 +24,7 @@ import { SpringIcon } from '@/components/icons/tags/backend/spring'
 import { FlaskIcon } from '@/components/icons/tags/backend/flask'
 import { VisualBasicIcon } from '@/components/icons/tags/backend/visual-basic'
 import { KotlinIcon } from '@/components/icons/tags/backend/kotlin'
+import { FirebaseIcon } from '@/components/icons/tags/backend/firebase'
 
 // Mobile
 import { AndroidIcon } from '@/components/icons/tags/mobile/android'
@@ -145,5 +147,7 @@ export const iconMap: Record<string, IconComponent> = {
   FlutterIcon,
   GradleIcon,
   DartIcon,
-  SQLiteIcon
+  SQLiteIcon,
+  MaterialUIIcon,
+  FirebaseIcon
 }
