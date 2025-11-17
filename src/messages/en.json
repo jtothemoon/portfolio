@@ -47,6 +47,22 @@
         ]
       },
       {
+        "company": "Chosun University Open Source Idea Competition",
+        "badges": ["Hybrid"],
+        "jobs": [
+          {
+            "title": "Mentor",
+            "start": "Nov 5, 2025",
+            "end": "Nov 15, 2025",
+            "description": [
+              "Served as a mentor at the Chosun University Open Source Idea Competition.",
+              "Supported student teams from Pre-Hackathon to the main event, providing technical advice and project development guidance.",
+              "Mentored 25 students across 8 teams to realize creative ideas using open source technologies."
+            ]
+          }
+        ]
+      },
+      {
         "company": "Honam LLM Hackathon Competition",
         "badges": ["On-site"],
         "jobs": [
@@ -144,6 +160,24 @@
     "preview": "Preview",
     "github": "GitHub",
     "items": [
+      {
+        "title": "Trivia Multiplayer Quiz",
+        "tags": [
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "Express" },
+          { "name": "Socket.io" },
+          { "name": "Firebase", "icon": "FirebaseIcon" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "AWS", "icon": "AWSIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
+        ],
+        "description": "A real-time multiplayer quiz game developed for student mentoring at the Chosun University Open Source Idea Competition.",
+        "link": {
+          "github": "https://github.com/jtothemoon/trivia-quiz-app"
+        },
+        "image": ""
+      },
       {
         "title": "GUTI - Location-based Subscription Platform",
         "tags": [
