@@ -47,6 +47,23 @@
         ]
       },
       {
+        "company": "조선대학교 SW창업동아리 핵심역량 집중특강",
+        "badges": ["현장 근무"],
+        "jobs": [
+          {
+            "title": "특강 강사",
+            "start": "2025년 12월 3일",
+            "end": "2025년 12월 3일",
+            "description": [
+              "조선대학교 IT융합대학에서 SW창업동아리 재학생 40명을 대상으로 특강을 진행했습니다.",
+              "'아이디어를 실제 서비스로: 개발자가 알려주는 MVP 구축 전략'을 주제로 강의했습니다.",
+              "초기 팀빌딩부터 MVP 배포까지의 과정과 스타트업에 적합한 기술 스택 선정 기준을 소개했습니다.",
+              "Next.js + Vercel + Supabase를 활용한 웹서비스 구축 및 배포 실습을 진행했습니다."
+            ]
+          }
+        ]
+      },
+      {
         "company": "조선대학교 오픈소스 아이디어 경진대회",
         "badges": ["하이브리드"],
         "jobs": [
@@ -160,6 +177,22 @@
     "preview": "미리보기",
     "github": "GitHub",
     "items": [
+      {
+        "title": "CSU Guest Book",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Supabase", "icon": "SupabaseIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "조선대학교 SW창업동아리 특강 실습용으로 개발한 방명록 웹 애플리케이션입니다. 카카오 OAuth 로그인과 Supabase 기반 데이터 관리를 활용한 풀스택 프로젝트입니다.",
+        "link": {
+          "github": "https://github.com/jtothemoon/csu-guest-book"
+        },
+        "image": ""
+      },
       {
         "title": "Trivia Multiplayer Quiz",
         "tags": [

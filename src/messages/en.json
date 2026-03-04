@@ -47,6 +47,23 @@
         ]
       },
       {
+        "company": "Chosun University SW Startup Club Intensive Lecture",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Guest Lecturer",
+            "start": "Dec 3, 2025",
+            "end": "Dec 3, 2025",
+            "description": [
+              "Delivered an intensive lecture to approximately 40 SW startup club students at Chosun University IT Convergence College.",
+              "Lectured on 'From Idea to Real Service: MVP Building Strategies from a Developer's Perspective'.",
+              "Introduced the process from initial team building to MVP deployment and criteria for selecting tech stacks suitable for early-stage startups.",
+              "Conducted hands-on workshop on building and deploying web services using Next.js + Vercel + Supabase."
+            ]
+          }
+        ]
+      },
+      {
         "company": "Chosun University Open Source Idea Competition",
         "badges": ["Hybrid"],
         "jobs": [
@@ -160,6 +177,22 @@
     "preview": "Preview",
     "github": "GitHub",
     "items": [
+      {
+        "title": "CSU Guest Book",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Supabase", "icon": "SupabaseIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "A guest book web application developed for the Chosun University SW Startup Club intensive lecture workshop. A full-stack project utilizing Kakao OAuth login and Supabase-based data management.",
+        "link": {
+          "github": "https://github.com/jtothemoon/csu-guest-book"
+        },
+        "image": ""
+      },
       {
         "title": "Trivia Multiplayer Quiz",
         "tags": [
