@@ -178,6 +178,25 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "Babmate",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "TypeORM" },
+          { "name": "Redis", "icon": "RedisIcon" },
+          { "name": "BullMQ" },
+          { "name": "JWT" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" }
+        ],
+        "description": "밥으로 여행자와 로컬을 이어 친구를 만드는 경험 플랫폼의 백엔드 서비스입니다. 인증, 예약, 실시간 채팅/알림(SSE), 리뷰 등 풀스택 기능을 제공합니다.",
+        "link": {},
+        "image": ""
+      },
+      {
         "title": "CSU Guest Book",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -198,8 +217,8 @@
         "tags": [
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Node.js", "icon": "NodeJSIcon" },
-          { "name": "Express" },
-          { "name": "Socket.io" },
+          { "name": "Express", "icon": "ExpressIcon" },
+          { "name": "Socket.io", "icon": "SocketIOIcon" },
           { "name": "Firebase", "icon": "FirebaseIcon" },
           { "name": "Docker", "icon": "DockerIcon" },
           { "name": "AWS", "icon": "AWSIcon" },
@@ -541,6 +560,17 @@
         }
       }
     }
+  },
+  "resume": {
+    "title": "이력서",
+    "about": "소개",
+    "career": "경력",
+    "projects": "프로젝트",
+    "skills": "기술 스택",
+    "print": "인쇄 / PDF 저장",
+    "location": "나주, 한국",
+    "phone": "연락처",
+    "email": "이메일"
   },
   "pagination": {
     "next": "다음",

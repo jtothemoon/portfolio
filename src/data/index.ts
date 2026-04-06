@@ -21,6 +21,8 @@ import { NodeJSIcon } from '@/components/icons/tags/backend/nodejs'
 import { PythonIcon } from '@/components/icons/tags/backend/python'
 import { JavaIcon } from '@/components/icons/tags/backend/java'
 import { SpringIcon } from '@/components/icons/tags/backend/spring'
+import { ExpressIcon } from '@/components/icons/tags/backend/express'
+import { NestJSIcon } from '@/components/icons/tags/backend/nestjs'
 import { FlaskIcon } from '@/components/icons/tags/backend/flask'
 import { VisualBasicIcon } from '@/components/icons/tags/backend/visual-basic'
 import { KotlinIcon } from '@/components/icons/tags/backend/kotlin'
@@ -36,6 +38,8 @@ import { DartIcon } from '@/components/icons/tags/mobile/dart'
 import { OracleIcon } from '@/components/icons/tags/database/oracle'
 import { MySQLIcon } from '@/components/icons/tags/database/mysql'
 import { SQLiteIcon } from '@/components/icons/tags/database/sqlite'
+import { PostgreSQLIcon } from '@/components/icons/tags/database/postgresql'
+import { RedisIcon } from '@/components/icons/tags/database/redis'
 import { SupabaseIcon } from '@/components/icons/tags/database/supabase'
 
 // DevOps
@@ -44,6 +48,8 @@ import { DockerIcon } from '@/components/icons/tags/devops/docker'
 import { AWSIcon } from '@/components/icons/tags/devops/aws'
 import { VercelIcon } from '@/components/icons/tags/devops/vercel'
 import { GitHubActionsIcon } from '@/components/icons/tags/devops/github-actions'
+import { RailwayIcon } from '@/components/icons/tags/devops/railway'
+import { CloudflareIcon } from '@/components/icons/tags/devops/cloudflare'
 import { PNPMIcon } from '@/components/icons/tags/devops/pnpm'
 
 // AI/ML
@@ -55,6 +61,8 @@ import { ElevenLabsIcon } from '@/components/icons/tags/ai-ml/elevenlabs'
 import { StreamlitIcon } from '@/components/icons/tags/ai-ml/streamlit'
 
 // Tools
+import { SocketIOIcon } from '@/components/icons/tags/tools/socket-io'
+import { SentryIcon } from '@/components/icons/tags/tools/sentry'
 import { ViteIcon } from '@/components/icons/tags/tools/vite'
 import { VitestIcon } from '@/components/icons/tags/tools/vitest'
 import { SWCIcon } from '@/components/icons/tags/tools/swc'
@@ -93,7 +101,7 @@ export const LINKS = [
   },
   {
     title: 'Resume',
-    url: '#',
+    url: '/resume',
     icon: FileTextIcon
   },
   {
@@ -120,13 +128,17 @@ export const iconMap: Record<string, IconComponent> = {
   NodeJSIcon,
   VitestIcon,
   BootstrapIcon,
+  RedisIcon,
   SupabaseIcon,
   ReduxIcon,
   PNPMIcon,
   VercelIcon,
+  SocketIOIcon,
+  SentryIcon,
   BasehubIcon,
   GraphQLIcon,
   VisualBasicIcon,
+  PostgreSQLIcon,
   OracleIcon,
   JavaIcon,
   SpringIcon,
@@ -134,6 +146,8 @@ export const iconMap: Record<string, IconComponent> = {
   MySQLIcon,
   OpenCVIcon,
   AndroidIcon,
+  ExpressIcon,
+  NestJSIcon,
   FlaskIcon,
   ElevenLabsIcon,
   TensorFlowIcon,
@@ -142,6 +156,8 @@ export const iconMap: Record<string, IconComponent> = {
   GitHubActionsIcon,
   LangChainIcon,
   StreamlitIcon,
+  RailwayIcon,
+  CloudflareIcon,
   AWSIcon,
   KotlinIcon,
   FlutterIcon,

@@ -83,3 +83,17 @@
 .not-found ~ .footer {
   display: none;
 }
+
+@media print {
+  header, .footer {
+    display: none !important;
+  }
+  main {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

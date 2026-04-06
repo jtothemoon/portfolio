@@ -178,6 +178,25 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "Babmate",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "TypeORM" },
+          { "name": "Redis", "icon": "RedisIcon" },
+          { "name": "BullMQ" },
+          { "name": "JWT" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" }
+        ],
+        "description": "Backend service for a platform that connects travelers and locals through shared meals. Provides full-stack features including authentication, reservations, real-time chat/notifications (SSE), and reviews.",
+        "link": {},
+        "image": ""
+      },
+      {
         "title": "CSU Guest Book",
         "tags": [
           { "name": "Next.js", "icon": "NextJSIcon" },
@@ -198,8 +217,8 @@
         "tags": [
           { "name": "React", "icon": "ReactIcon" },
           { "name": "Node.js", "icon": "NodeJSIcon" },
-          { "name": "Express" },
-          { "name": "Socket.io" },
+          { "name": "Express", "icon": "ExpressIcon" },
+          { "name": "Socket.io", "icon": "SocketIOIcon" },
           { "name": "Firebase", "icon": "FirebaseIcon" },
           { "name": "Docker", "icon": "DockerIcon" },
           { "name": "AWS", "icon": "AWSIcon" },
@@ -541,6 +560,17 @@
         }
       }
     }
+  },
+  "resume": {
+    "title": "Resume",
+    "about": "About",
+    "career": "Career",
+    "projects": "Projects",
+    "skills": "Skills",
+    "print": "Print / Save PDF",
+    "location": "Naju, South Korea",
+    "phone": "Contact",
+    "email": "Email"
   },
   "pagination": {
     "next": "Next",
