@@ -47,6 +47,23 @@
         ]
       },
       {
+        "company": "Gwangju Software Meister High School Full-Stack Web Development Bootcamp",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Bootcamp Instructor",
+            "start": "Jul 20, 2026",
+            "end": "Jul 24, 2026",
+            "description": [
+              "Led a 5-day full-stack web development bootcamp (3 days of instruction + 2 days of hackathon) for about 25 second-year students at Gwangju Software Meister High School.",
+              "Personally designed the entire curriculum, covering the full web service development process from a React (Vite) frontend to a Node.js/Express backend, a Supabase (PostgreSQL) database, and deployment on Vercel/Render.",
+              "Introduced an AI collaboration principle, 'learn new things by hand and delegate the rest to AI,' along with a 3-step error-resolution protocol, teaching a development learning method suited to the AI era.",
+              "Served as a mentor and judge during the 2-day hackathon, mentoring each team's development direction and evaluating the final deliverables."
+            ]
+          }
+        ]
+      },
+      {
         "company": "Chosun University SW Startup Club Intensive Lecture",
         "badges": ["On-site"],
         "jobs": [

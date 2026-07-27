@@ -8,11 +8,11 @@ const nextIntlMiddleware = createMiddleware({
   localePrefix: 'never'
 })
 
-function middleware(req: NextRequest): NextResponse {
+function proxy(req: NextRequest): NextResponse {
   return nextIntlMiddleware(req)
 }
 
-export default middleware
+export default proxy
 
 export const config = {
   // match only internationalized pathnames
