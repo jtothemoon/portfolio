@@ -195,6 +195,29 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "TRANA",
+        "tags": [
+          { "name": "Kotlin", "icon": "KotlinIcon" },
+          { "name": "Spring Boot", "icon": "SpringIcon" },
+          { "name": "Gradle", "icon": "GradleIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "JWT" },
+          { "name": "AWS S3", "icon": "AWSIcon" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Turborepo" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "A safe-transaction infrastructure for high-value, high-risk C2C secondhand trades. It combines PASS carrier identity verification, electronic contract signing, a trust-score system, and legal evidence preservation into one standardized flow. Built full-stack with a Kotlin/Spring Boot backend and a Next.js monorepo for the auth and landing web.",
+        "link": { "preview": "https://trana.kr" },
+        "image": ""
+      },
+      {
         "title": "Babmate",
         "tags": [
           { "name": "NestJS", "icon": "NestJSIcon" },

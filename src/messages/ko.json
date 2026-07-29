@@ -195,6 +195,29 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "TRANA",
+        "tags": [
+          { "name": "Kotlin", "icon": "KotlinIcon" },
+          { "name": "Spring Boot", "icon": "SpringIcon" },
+          { "name": "Gradle", "icon": "GradleIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "JWT" },
+          { "name": "AWS S3", "icon": "AWSIcon" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "Shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Turborepo" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "고위험·고금액 C2C 중고거래를 위한 안전거래 인프라입니다. PASS 통신사 본인확인, 전자계약 서명, 신뢰 점수, 법적 증거 보존을 하나의 표준 흐름으로 묶었습니다. Kotlin/Spring Boot 백엔드와 Next.js 모노레포(인증·랜딩 웹)를 풀스택으로 구축했습니다.",
+        "link": { "preview": "https://trana.kr" },
+        "image": ""
+      },
+      {
         "title": "Babmate",
         "tags": [
           { "name": "NestJS", "icon": "NestJSIcon" },
