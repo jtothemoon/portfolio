@@ -195,6 +195,25 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "장사친구",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "Prisma" },
+          { "name": "Redis", "icon": "RedisIcon" },
+          { "name": "JWT" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" }
+        ],
+        "description": "The backend for an AI-powered business-decision solution for small business owners. It analyzes EZPOS POS Excel sales data and provides profit-and-loss reports and OpenAI-based AI management insights. Built with NestJS — OAuth authentication, refresh-token rotation, deterministic P&L calculation, and Cloudflare R2 file uploads.",
+        "link": { "preview": "https://jangsaguide.cloud" },
+        "image": ""
+      },
+      {
         "title": "TRANA",
         "tags": [
           { "name": "Kotlin", "icon": "KotlinIcon" },

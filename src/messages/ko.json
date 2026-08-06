@@ -195,6 +195,25 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "장사친구",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "Prisma" },
+          { "name": "Redis", "icon": "RedisIcon" },
+          { "name": "JWT" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" }
+        ],
+        "description": "소상공인을 위한 AI 기반 장사판단 솔루션의 백엔드 서비스입니다. EZPOS POS 엑셀 매출 데이터 분석, 손익 리포트, OpenAI 기반 AI 경영 진단을 제공합니다. OAuth 인증, 리프레시 토큰 로테이션, 결정론적 손익 계산, Cloudflare R2 파일 업로드까지 NestJS로 구축했습니다.",
+        "link": { "preview": "https://jangsaguide.cloud" },
+        "image": ""
+      },
+      {
         "title": "TRANA",
         "tags": [
           { "name": "Kotlin", "icon": "KotlinIcon" },
