@@ -47,6 +47,40 @@
         ]
       },
       {
+        "company": "Gwangju University AI Hackathon Competition",
+        "link": "https://hackathon.tbitcloud.com/gu-ai",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Mentor",
+            "start": "Aug 31, 2026",
+            "end": "Sep 2, 2026",
+            "description": [
+              "Served as a mentor at a 3-day AI hackathon hosted by Gwangju University.",
+              "Supported 6 teams (30 participants) — each pairing majors with non-majors — in planning, building, and deploying AI agents, and provided technical advice.",
+              "Mentored each team's project direction in an AWS-based development environment."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Software-Oriented University Honam AWS Kiro Hackathon (2nd)",
+        "link": "https://hackathon.tbitcloud.com/honam-llm",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Mentor",
+            "start": "Aug 27, 2026",
+            "end": "Aug 29, 2026",
+            "description": [
+              "Served as a mentor at a 3-day hackathon hosted by the Ministry of Science and ICT, IITP, and Chosun University, and organized by five Honam-region software-oriented universities (Chosun, Gunsan, Jeonbuk, Suncheon, Jeonnam). This was the 2nd edition, following the previous year's Honam LLM Hackathon.",
+              "Mentored 8 teams (40 participants) from the five universities as they took AI coding agent Kiro from spec design through deployment.",
+              "Provided dedicated per-team mentoring and AWS technical support."
+            ]
+          }
+        ]
+      },
+      {
         "company": "Gwangju Software Meister High School Full-Stack Web Development Bootcamp",
         "badges": ["On-site"],
         "jobs": [
@@ -97,7 +131,7 @@
         ]
       },
       {
-        "company": "Honam LLM Hackathon Competition",
+        "company": "Honam LLM Hackathon Competition (1st)",
         "badges": ["On-site"],
         "jobs": [
           {
@@ -195,7 +229,29 @@
     "github": "GitHub",
     "items": [
       {
-        "title": "장사친구",
+        "title": "Nanaly",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "TypeORM" },
+          { "name": "JWT" },
+          { "name": "AWS", "icon": "AWSIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "The backend and landing page for a mobile app that manages per-store staff schedules — shifts, time-off, notices, and push notifications. The NestJS backend provides JWT and Google/Apple social login, store-level RBAC (owner/manager/staff), shift-reminder cron jobs, Expo push, and AWS SES email, deployed on Railway and EC2. The landing page collects pre-registration leads with Next.js and Tailwind.",
+        "link": { "preview": "https://nanaly-schedule.com" },
+        "image": ""
+      },
+      {
+        "title": "JangsaGuide",
         "tags": [
           { "name": "NestJS", "icon": "NestJSIcon" },
           { "name": "TypeScript", "icon": "TypeScriptIcon" },

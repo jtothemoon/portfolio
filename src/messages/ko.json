@@ -47,6 +47,40 @@
         ]
       },
       {
+        "company": "광주대학교 AI 해커톤 경진대회",
+        "link": "https://hackathon.tbitcloud.com/gu-ai",
+        "badges": ["현장 근무"],
+        "jobs": [
+          {
+            "title": "멘토",
+            "start": "2026년 8월 31일",
+            "end": "2026년 9월 2일",
+            "description": [
+              "광주대학교가 주최한 2박 3일 AI 해커톤에서 멘토로 활동했습니다.",
+              "전공자와 비전공자가 한 팀을 이룬 6개 팀(30명)이 AI 에이전트를 기획·개발·배포하도록 지원하고 기술적 조언을 제공했습니다.",
+              "AWS 기반 개발 환경에서 팀별 프로젝트 방향을 멘토링했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "SW중심대학 호남권 AWS Kiro 해커톤 (2회차)",
+        "link": "https://hackathon.tbitcloud.com/honam-llm",
+        "badges": ["현장 근무"],
+        "jobs": [
+          {
+            "title": "멘토",
+            "start": "2026년 8월 27일",
+            "end": "2026년 8월 29일",
+            "description": [
+              "과학기술정보통신부·IITP·조선대학교가 주최하고 호남권 5개 SW중심대학(조선·군산·전북·순천·전남)이 주관한 2박 3일 해커톤에서 멘토로 활동했습니다. 전년도 호남권 LLM 해커톤에 이은 2회차입니다.",
+              "호남권 5개 대학에서 모인 8개 팀(40명)이 AI 코딩 에이전트 Kiro로 스펙 설계부터 배포까지 완주하도록 멘토링했습니다.",
+              "팀별 전담 멘토링과 AWS 기술 지원을 제공했습니다."
+            ]
+          }
+        ]
+      },
+      {
         "company": "광주소프트웨어마이스터고등학교 풀스택 웹 개발 부트캠프",
         "badges": ["현장 근무"],
         "jobs": [
@@ -97,7 +131,7 @@
         ]
       },
       {
-        "company": "호남권 LLM 해커톤 경진대회",
+        "company": "호남권 LLM 해커톤 경진대회 (1회차)",
         "badges": ["현장 근무"],
         "jobs": [
           {
@@ -194,6 +228,28 @@
     "preview": "미리보기",
     "github": "GitHub",
     "items": [
+      {
+        "title": "나날이",
+        "tags": [
+          { "name": "NestJS", "icon": "NestJSIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Node.js", "icon": "NodeJSIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "TypeORM" },
+          { "name": "JWT" },
+          { "name": "AWS", "icon": "AWSIcon" },
+          { "name": "Sentry", "icon": "SentryIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "매장 단위 직원 스케줄(근무표·근무불가·공지·푸시 알림)을 관리하는 모바일 앱의 백엔드와 랜딩페이지입니다. NestJS 백엔드는 JWT·구글/애플 소셜 로그인, 매장 RBAC(사장/매니저/직원), 근무 리마인더 크론, Expo 푸시, AWS SES 메일을 제공하며 Railway·EC2에 배포했습니다. 랜딩페이지는 Next.js·Tailwind로 사전예약 리드를 수집합니다.",
+        "link": { "preview": "https://nanaly-schedule.com" },
+        "image": ""
+      },
       {
         "title": "장사친구",
         "tags": [
