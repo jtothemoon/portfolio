@@ -229,6 +229,48 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "Integrated Metering Platform",
+        "tags": [
+          { "name": "Java", "icon": "JavaIcon" },
+          { "name": "Spring", "icon": "SpringIcon" },
+          { "name": "eGovFrame" },
+          { "name": "MyBatis" },
+          { "name": "MariaDB", "icon": "MySQLIcon" },
+          { "name": "Maven", "icon": "MavenIcon" },
+          { "name": "JSP" },
+          { "name": "Bootstrap", "icon": "BootstrapIcon" },
+          { "name": "jQuery", "icon": "JQueryIcon" },
+          { "name": "DataTables" },
+          { "name": "Chart.js" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
+        ],
+        "description": "An AMI (advanced metering infrastructure) platform for high-voltage remote metering. It monitors status, performance, and load-profile (LP) data collected from wireless modems and power meters, sends manual commands over FEP TCP sockets, and manages firmware OTA upgrades. Built on the eGovFrame 4.0 / Spring MVC stack with role-by-menu access control, a Chart.js dashboard, and Excel export, deployed to an on-premise server via Docker and GitHub Actions.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "Labit",
+        "tags": [
+          { "name": "FastAPI", "icon": "FastAPIIcon" },
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "SQLModel" },
+          { "name": "JWT" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Vite", "icon": "ViteIcon" },
+          { "name": "Ant Design" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "The backend and admin dashboard for an interactive science-learning service (chemistry bonding) for middle-school students. Built an async FastAPI backend for learning-content and quiz APIs with OpenAI-based quiz feedback, plus JWT authentication with Argon2 hashing, Cloudflare R2 image uploads, and Alembic migrations. The admin console manages content and users with React and Ant Design, deployed on Railway and Vercel.",
+        "link": {},
+        "image": ""
+      },
+      {
         "title": "Nanaly",
         "tags": [
           { "name": "NestJS", "icon": "NestJSIcon" },

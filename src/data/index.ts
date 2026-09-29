@@ -15,6 +15,7 @@ import { AstroIcon } from '@/components/icons/tags/frontend/astro'
 import { SvelteIcon } from '@/components/icons/tags/frontend/svelte'
 import { BootstrapIcon } from '@/components/icons/tags/frontend/bootstrap'
 import { MaterialUIIcon } from '@/components/icons/tags/frontend/material-ui'
+import { JQueryIcon } from '@/components/icons/tags/frontend/jquery'
 
 // Backend
 import { NodeJSIcon } from '@/components/icons/tags/backend/nodejs'
@@ -23,6 +24,7 @@ import { JavaIcon } from '@/components/icons/tags/backend/java'
 import { SpringIcon } from '@/components/icons/tags/backend/spring'
 import { ExpressIcon } from '@/components/icons/tags/backend/express'
 import { NestJSIcon } from '@/components/icons/tags/backend/nestjs'
+import { FastAPIIcon } from '@/components/icons/tags/backend/fastapi'
 import { FlaskIcon } from '@/components/icons/tags/backend/flask'
 import { VisualBasicIcon } from '@/components/icons/tags/backend/visual-basic'
 import { KotlinIcon } from '@/components/icons/tags/backend/kotlin'
@@ -51,6 +53,7 @@ import { GitHubActionsIcon } from '@/components/icons/tags/devops/github-actions
 import { RailwayIcon } from '@/components/icons/tags/devops/railway'
 import { CloudflareIcon } from '@/components/icons/tags/devops/cloudflare'
 import { PNPMIcon } from '@/components/icons/tags/devops/pnpm'
+import { MavenIcon } from '@/components/icons/tags/devops/maven'
 
 // AI/ML
 import { OpenAIIcon } from '@/components/icons/tags/ai-ml/openai'
@@ -132,6 +135,7 @@ export const iconMap: Record<string, IconComponent> = {
   SupabaseIcon,
   ReduxIcon,
   PNPMIcon,
+  MavenIcon,
   VercelIcon,
   SocketIOIcon,
   SentryIcon,
@@ -148,6 +152,7 @@ export const iconMap: Record<string, IconComponent> = {
   AndroidIcon,
   ExpressIcon,
   NestJSIcon,
+  FastAPIIcon,
   FlaskIcon,
   ElevenLabsIcon,
   TensorFlowIcon,
@@ -165,5 +170,6 @@ export const iconMap: Record<string, IconComponent> = {
   DartIcon,
   SQLiteIcon,
   MaterialUIIcon,
-  FirebaseIcon
+  FirebaseIcon,
+  JQueryIcon
 }

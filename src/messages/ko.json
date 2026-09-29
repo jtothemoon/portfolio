@@ -229,6 +229,48 @@
     "github": "GitHub",
     "items": [
       {
+        "title": "통합검침 플랫폼",
+        "tags": [
+          { "name": "Java", "icon": "JavaIcon" },
+          { "name": "Spring", "icon": "SpringIcon" },
+          { "name": "eGovFrame" },
+          { "name": "MyBatis" },
+          { "name": "MariaDB", "icon": "MySQLIcon" },
+          { "name": "Maven", "icon": "MavenIcon" },
+          { "name": "JSP" },
+          { "name": "Bootstrap", "icon": "BootstrapIcon" },
+          { "name": "jQuery", "icon": "JQueryIcon" },
+          { "name": "DataTables" },
+          { "name": "Chart.js" },
+          { "name": "Docker", "icon": "DockerIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" }
+        ],
+        "description": "고압 AMI(원격검침) 플랫폼입니다. 무선모뎀·전력량계에서 수집되는 상태·성능·계량(LP) 데이터를 조회·관제하고, FEP TCP 소켓으로 수동명령을 전송하며 펌웨어 OTA 업그레이드를 관리합니다. 전자정부 프레임워크 4.0·Spring MVC 기반으로 역할×메뉴 권한 관리, Chart.js 대시보드, 엑셀 다운로드를 구현했으며 온프레미스 서버에 Docker·GitHub Actions로 배포했습니다.",
+        "link": {},
+        "image": ""
+      },
+      {
+        "title": "랩잇",
+        "tags": [
+          { "name": "FastAPI", "icon": "FastAPIIcon" },
+          { "name": "Python", "icon": "PythonIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "SQLModel" },
+          { "name": "JWT" },
+          { "name": "OpenAI", "icon": "OpenAIIcon" },
+          { "name": "Cloudflare R2", "icon": "CloudflareIcon" },
+          { "name": "Railway", "icon": "RailwayIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Vite", "icon": "ViteIcon" },
+          { "name": "Ant Design" },
+          { "name": "Vercel", "icon": "VercelIcon" }
+        ],
+        "description": "중학생 과학(화학 결합) 인터랙티브 학습 서비스의 백엔드와 관리자 대시보드입니다. FastAPI(비동기)로 학습 콘텐츠·퀴즈 API와 OpenAI 기반 퀴즈 피드백을 구현하고, JWT 인증·Argon2 해싱, Cloudflare R2 이미지 업로드, Alembic 마이그레이션을 적용했습니다. 관리자 화면은 React와 Ant Design으로 콘텐츠·사용자를 관리하며 Railway·Vercel에 배포했습니다.",
+        "link": {},
+        "image": ""
+      },
+      {
         "title": "나날이",
         "tags": [
           { "name": "NestJS", "icon": "NestJSIcon" },
