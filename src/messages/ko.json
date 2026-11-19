@@ -47,18 +47,69 @@
         ]
       },
       {
+        "company": "소프트웨어마이스터고 연합 해커톤",
+        "link": "https://swunion.tbitcloud.com",
+        "badges": ["현장 근무"],
+        "jobs": [
+          {
+            "title": "멘토",
+            "start": "2026년 11월 4일",
+            "end": "2026년 11월 6일",
+            "description": [
+              "부산·경북·대덕·광주·대구 5개 소프트웨어마이스터고 학생들이 모인 2박 3일 연합 해커톤에서 멘토로 활동했습니다.",
+              "학교가 다른 학생끼리 팀을 이룬 12개 팀(60명)이 아이디어 구체화부터 풀스택 개발, 발표·시연까지 완주하도록 멘토링했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "동북권 개발자 대상 오픈소스 아이디어 경진대회",
+        "link": "https://hackathon.tbitcloud.com/northeast-oss",
+        "badges": ["원격 근무"],
+        "jobs": [
+          {
+            "title": "온라인 멘토 · 플랫폼 운영",
+            "start": "2026년 10월 31일",
+            "end": "2026년 11월 12일",
+            "description": [
+              "원주미래산업진흥원이 주최하고 으뜸정보기술이 주관한, 강원·대구·경북 지역 개발자 대상 오픈소스 아이디어 경진대회에서 온라인 멘토로 활동했습니다.",
+              "선발된 8개 팀(40명)이 2주간의 온라인 해커톤 동안 AI·클라우드·오픈소스 기술로 지역·사회 문제를 해결하는 서비스 프로토타입을 개발하도록 온라인으로 멘토링했습니다.",
+              "직접 개발한 해커톤 운영 플랫폼으로 팀 단위 온라인 접수, 온라인 멘토링 예약·기록, 산출물 제출을 운영했습니다."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "전남·광주 AI 기반 지역사회 문제해결톤",
+        "link": "https://hackathon.tbitcloud.com/jnu-kiro",
+        "badges": ["현장 근무"],
+        "jobs": [
+          {
+            "title": "멘토 · 플랫폼 운영",
+            "start": "2026년 10월 30일",
+            "end": "2026년 10월 31일",
+            "description": [
+              "전남대학교가 주최하고 전남대학교 SW중심대학사업단이 주관한 1박 2일 AI 해커톤에서 멘토로 활동했습니다.",
+              "광주·전남 통합 지역 문제를 다룬 20개 주제 중 하나를 고른 6개 팀(30명)이 AWS Kiro와 Amazon Bedrock으로 AI 서비스를 기획·개발하도록 멘토링했습니다.",
+              "직접 개발한 해커톤 운영 플랫폼으로 참가자 안내 페이지와 행사 운영 시스템을 제공했습니다."
+            ]
+          }
+        ]
+      },
+      {
         "company": "광주대학교 AI 해커톤 경진대회",
         "link": "https://hackathon.tbitcloud.com/gu-ai",
         "badges": ["현장 근무"],
         "jobs": [
           {
-            "title": "멘토",
+            "title": "멘토 · 플랫폼 운영",
             "start": "2026년 8월 31일",
             "end": "2026년 9월 2일",
             "description": [
               "광주대학교가 주최한 2박 3일 AI 해커톤에서 멘토로 활동했습니다.",
               "전공자와 비전공자가 한 팀을 이룬 6개 팀(30명)이 AI 에이전트를 기획·개발·배포하도록 지원하고 기술적 조언을 제공했습니다.",
-              "AWS 기반 개발 환경에서 팀별 프로젝트 방향을 멘토링했습니다."
+              "AWS 기반 개발 환경에서 팀별 프로젝트 방향을 멘토링했습니다.",
+              "직접 개발한 해커톤 운영 플랫폼으로 행사를 운영했으며, 이 회차에서 멘토링 관리와 AI 심사 질문 기능을 처음 도입했습니다."
             ]
           }
         ]
@@ -69,13 +120,14 @@
         "badges": ["현장 근무"],
         "jobs": [
           {
-            "title": "멘토",
+            "title": "멘토 · 플랫폼 운영",
             "start": "2026년 8월 27일",
             "end": "2026년 8월 29일",
             "description": [
               "과학기술정보통신부·IITP·조선대학교가 주최하고 호남권 5개 SW중심대학(조선·군산·전북·순천·전남)이 주관한 2박 3일 해커톤에서 멘토로 활동했습니다. 전년도 호남권 LLM 해커톤에 이은 2회차입니다.",
               "호남권 5개 대학에서 모인 8개 팀(40명)이 AI 코딩 에이전트 Kiro로 스펙 설계부터 배포까지 완주하도록 멘토링했습니다.",
-              "팀별 전담 멘토링과 AWS 기술 지원을 제공했습니다."
+              "팀별 전담 멘토링과 AWS 기술 지원을 제공했습니다.",
+              "직접 개발한 해커톤 운영 플랫폼을 처음 실전에 투입해 행사 안내 페이지와 팀 편성, 산출물 제출·심사 등 행사 운영 시스템을 제공했습니다."
             ]
           }
         ]
@@ -228,6 +280,30 @@
     "preview": "미리보기",
     "github": "GitHub",
     "items": [
+      {
+        "title": "해커톤 올인원 관리 플랫폼",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Turborepo" },
+          { "name": "pnpm", "icon": "PNPMIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "Drizzle ORM" },
+          { "name": "Amazon Bedrock" },
+          { "name": "AWS Lightsail", "icon": "AWSIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" },
+          { "name": "Vitest", "icon": "VitestIcon" },
+          { "name": "Playwright" }
+        ],
+        "description": "해커톤의 기획부터 시상 마무리까지 한 곳에서 운영하는 올인원 관리 플랫폼입니다. 여러 회차를 한 시스템에서 운영하며 행사별 랜딩 페이지와 운영 콘솔·참가팀·심사위원·멘토 화면을 제공합니다. 팀 신청 접수, 팀 편성, 사전 발급 접근 코드 인증, 산출물 제출, 심사 채점과 Amazon Bedrock 기반 AI 심사 질문, 멘토링 예약·기록(Word 내보내기), 전광판·추첨 등 현장 진행 기능을 구현했습니다. Turborepo 모노레포로 랜딩과 앱을 분리하고 AWS Lightsail에 PostgreSQL과 함께 GitHub Actions로 배포했으며, 호남권·광주대·전남대·동북권 해커톤 운영에 사용했습니다.",
+        "link": {
+          "preview": "https://hackathon.tbitcloud.com"
+        },
+        "image": ""
+      },
       {
         "title": "통합검침 플랫폼",
         "tags": [

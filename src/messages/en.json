@@ -47,18 +47,69 @@
         ]
       },
       {
+        "company": "Software Meister High School Joint Hackathon",
+        "link": "https://swunion.tbitcloud.com",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Mentor",
+            "start": "Nov 4, 2026",
+            "end": "Nov 6, 2026",
+            "description": [
+              "Served as a mentor at a 3-day joint hackathon bringing together students from five Software Meister High Schools (Busan, Gyeongbuk, Daedeok, Gwangju, and Daegu).",
+              "Mentored 12 teams (60 students), each mixing students from different schools, from idea refinement through full-stack development to final presentations and demos."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Northeast Region Open Source Idea Competition for Developers",
+        "link": "https://hackathon.tbitcloud.com/northeast-oss",
+        "badges": ["Remote"],
+        "jobs": [
+          {
+            "title": "Online Mentor & Platform Operator",
+            "start": "Oct 31, 2026",
+            "end": "Nov 12, 2026",
+            "description": [
+              "Served as an online mentor at an open source idea competition for developers in the Gangwon, Daegu, and Gyeongbuk regions, hosted by the Wonju Future Industry Foundation and organized by TBiT.",
+              "Mentored 8 selected teams (40 participants) online as they built service prototypes solving regional and social problems with AI, cloud, and open source technologies during a 2-week online hackathon.",
+              "Ran team-based online applications, online mentoring booking and notes, and deliverable submissions on the hackathon management platform I built."
+            ]
+          }
+        ]
+      },
+      {
+        "company": "Jeonnam-Gwangju AI Community Problem-Solving Hackathon",
+        "link": "https://hackathon.tbitcloud.com/jnu-kiro",
+        "badges": ["On-site"],
+        "jobs": [
+          {
+            "title": "Mentor & Platform Operator",
+            "start": "Oct 30, 2026",
+            "end": "Oct 31, 2026",
+            "description": [
+              "Served as a mentor at a 2-day AI hackathon hosted by Chonnam National University and organized by its SW-Centered University Program.",
+              "Mentored 6 teams (30 participants), each choosing one of 20 topics on regional issues arising from the Gwangju-Jeonnam integration, as they planned and built AI services with AWS Kiro and Amazon Bedrock.",
+              "Provided the participant guide page and event operations system through the hackathon management platform I built."
+            ]
+          }
+        ]
+      },
+      {
         "company": "Gwangju University AI Hackathon Competition",
         "link": "https://hackathon.tbitcloud.com/gu-ai",
         "badges": ["On-site"],
         "jobs": [
           {
-            "title": "Mentor",
+            "title": "Mentor & Platform Operator",
             "start": "Aug 31, 2026",
             "end": "Sep 2, 2026",
             "description": [
               "Served as a mentor at a 3-day AI hackathon hosted by Gwangju University.",
               "Supported 6 teams (30 participants) — each pairing majors with non-majors — in planning, building, and deploying AI agents, and provided technical advice.",
-              "Mentored each team's project direction in an AWS-based development environment."
+              "Mentored each team's project direction in an AWS-based development environment.",
+              "Ran the event on the hackathon management platform I built, introducing mentoring management and AI-generated judging questions for the first time at this edition."
             ]
           }
         ]
@@ -69,13 +120,14 @@
         "badges": ["On-site"],
         "jobs": [
           {
-            "title": "Mentor",
+            "title": "Mentor & Platform Operator",
             "start": "Aug 27, 2026",
             "end": "Aug 29, 2026",
             "description": [
               "Served as a mentor at a 3-day hackathon hosted by the Ministry of Science and ICT, IITP, and Chosun University, and organized by five Honam-region software-oriented universities (Chosun, Gunsan, Jeonbuk, Suncheon, Jeonnam). This was the 2nd edition, following the previous year's Honam LLM Hackathon.",
               "Mentored 8 teams (40 participants) from the five universities as they took AI coding agent Kiro from spec design through deployment.",
-              "Provided dedicated per-team mentoring and AWS technical support."
+              "Provided dedicated per-team mentoring and AWS technical support.",
+              "Deployed the hackathon management platform I built for its first live event, providing the event information page and operations system covering team assignment, deliverable submission, and judging."
             ]
           }
         ]
@@ -228,6 +280,30 @@
     "preview": "Preview",
     "github": "GitHub",
     "items": [
+      {
+        "title": "Hackathon All-in-One Platform",
+        "tags": [
+          { "name": "Next.js", "icon": "NextJSIcon" },
+          { "name": "React", "icon": "ReactIcon" },
+          { "name": "TypeScript", "icon": "TypeScriptIcon" },
+          { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+          { "name": "shadcn/ui", "icon": "ShadcnIcon" },
+          { "name": "Turborepo" },
+          { "name": "pnpm", "icon": "PNPMIcon" },
+          { "name": "PostgreSQL", "icon": "PostgreSQLIcon" },
+          { "name": "Drizzle ORM" },
+          { "name": "Amazon Bedrock" },
+          { "name": "AWS Lightsail", "icon": "AWSIcon" },
+          { "name": "GitHub Actions", "icon": "GitHubActionsIcon" },
+          { "name": "Vitest", "icon": "VitestIcon" },
+          { "name": "Playwright" }
+        ],
+        "description": "An all-in-one platform for running hackathons end to end, from planning to the awards wrap-up. It runs multiple events in a single system, with a landing page per event plus dedicated screens for the operations console, participating teams, judges, and mentors. Features include team applications, team assignment, pre-issued access-code authentication, deliverable submission, judge scoring with AI-generated judging questions via Amazon Bedrock, mentoring booking and notes (with Word export), and on-site tools such as a live board and draws. Built as a Turborepo monorepo separating the landing site from the app, deployed with PostgreSQL to AWS Lightsail via GitHub Actions, and used to run the Honam, Gwangju University, Chonnam National University, and Northeast Region hackathons.",
+        "link": {
+          "preview": "https://hackathon.tbitcloud.com"
+        },
+        "image": ""
+      },
       {
         "title": "Integrated Metering Platform",
         "tags": [
